@@ -1,0 +1,16 @@
+# KiCad files
+*.kicad_sch.lck
+*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*~
+
+# Backups
+esp32_xiaozhi-backups/
+
+# KiCad history directory
+.history/
+
+# OS generated files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,336 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "cae338e8-f342-43cb-b99a-a0486629133c")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 82.55 111.76)
+		(size 49.53 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0b8c63fc-3109-4f1a-8140-b91a685f434f")
+		(property "Sheetname" "max98357a"
+			(at 82.55 111.0484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "max98357a.kicad_sch"
+			(at 82.55 159.3346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32_xiaozhi"
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 113.03)
+		(size 46.99 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "58539eaf-f84e-4892-8e51-2f1825749ca1")
+		(property "Sheetname" "power_supply"
+			(at 203.2 112.3184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 203.2 158.0646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32_xiaozhi"
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 111.76)
+		(size 40.64 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "62520ce4-d21b-4842-a32d-5b11b343b2aa")
+		(property "Sheetname" "ft232"
+			(at 30.48 111.0484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ft232.kicad_sch"
+			(at 30.48 158.0646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32_xiaozhi"
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 40.64)
+		(size 50.8 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7256592f-47bf-4ef9-8c00-e0996fdaf86a")
+		(property "Sheetname" "led_sw_gpio"
+			(at 199.39 39.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_sw_gpio.kicad_sch"
+			(at 199.39 83.1346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32_xiaozhi"
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 39.37)
+		(size 40.64 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "99dbbdf2-0f67-4248-a995-74d5ebf0be3f")
+		(property "Sheetname" "esp32_c6"
+			(at 31.75 38.6584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32_c6.kicad_sch"
+			(at 31.75 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32_xiaozhi"
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 111.76)
+		(size 48.26 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c0550844-e74d-4e5d-964f-3b0622860ba1")
+		(property "Sheetname" "display"
+			(at 143.51 111.0484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 143.51 159.3346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32_xiaozhi"
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.24 38.1)
+		(size 48.26 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d2e61921-5974-44e2-9221-de7c05f17e70")
+		(property "Sheetname" "inmp441"
+			(at 142.24 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "inmp441.kicad_sch"
+			(at 142.24 79.3246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32_xiaozhi"
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
