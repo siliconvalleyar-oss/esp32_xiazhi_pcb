@@ -2,17 +2,17 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "1aad53e4-b0a1-4b07-9c36-1c33c3b36f92")
+	(uuid "f4d95b47-32bd-495f-86e1-b4ffc874bdc5")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Audio:MAX98357A"
+		(symbol "Logic_LevelTranslator:TXS0108EPW"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -8.89 11.43 0)
+				(at -6.35 16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -21,18 +21,19 @@
 					)
 				)
 			)
-			(property "Value" "MAX98357A"
-				(at 10.16 11.43 0)
+			(property "Value" "TXS0108EPW"
+				(at 3.81 16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm"
-				(at -1.27 -2.54 0)
+			(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+				(at 0 -19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -42,7 +43,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf"
+			(property "Datasheet" "www.ti.com/lit/ds/symlink/txs0108e.pdf"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -53,7 +54,7 @@
 					)
 				)
 			)
-			(property "Description" "Mono DAC with amplifier, I2S, PCM, TDM, 32-bit, 96khz, 3.2W, TQFP-16"
+			(property "Description" "Bidirectional  level-shifting voltage translator, TSSOP-20"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -64,7 +65,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "pcm tdm i2s left-justified amplifier audio dac"
+			(property "ki_keywords" "8-bit"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -75,7 +76,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TQFN*3x3mm*P0.5mm*EP1.23x1.23mm*"
+			(property "ki_fp_filters" "*SSOP*4.4x6.5mm*P0.65mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -86,10 +87,10 @@
 					)
 				)
 			)
-			(symbol "MAX98357A_1_1"
+			(symbol "TXS0108EPW_0_1"
 				(rectangle
-					(start -10.16 10.16)
-					(end 10.16 -10.16)
+					(start -7.62 15.24)
+					(end 7.62 -15.24)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -98,10 +99,12 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at -12.7 7.62 0)
+			)
+			(symbol "TXS0108EPW_1_1"
+				(pin bidirectional line
+					(at -10.16 7.62 0)
 					(length 2.54)
-					(name "DIN"
+					(name "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -116,10 +119,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -12.7 -5.08 0)
+				(pin power_in line
+					(at -2.54 17.78 270)
 					(length 2.54)
-					(name "GAIN_SLOT"
+					(name "VCCA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -134,10 +137,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -2.54 -12.7 90)
+				(pin bidirectional line
+					(at -10.16 5.08 0)
 					(length 2.54)
-					(name "GND"
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -152,10 +155,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 -2.54 0)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "~{SD_MODE}"
+					(name "A3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -170,11 +173,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 10.16 2.54 180)
+				(pin bidirectional line
+					(at -10.16 0 0)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "A4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -189,11 +191,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 10.16 0 180)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "A5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -208,10 +209,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 12.7 270)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name "VDD"
+					(name "A6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -226,11 +227,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 12.7 270)
+				(pin bidirectional line
+					(at -10.16 -7.62 0)
 					(length 2.54)
-					(hide yes)
-					(name "VDD"
+					(name "A7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -245,10 +245,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 12.7 7.62 180)
+				(pin bidirectional line
+					(at -10.16 -10.16 0)
 					(length 2.54)
-					(name "OUTP"
+					(name "A8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -263,10 +263,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 12.7 5.08 180)
+				(pin input line
+					(at -10.16 10.16 0)
 					(length 2.54)
-					(name "OUTN"
+					(name "OE"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -281,10 +281,9 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -2.54 -12.7 90)
+				(pin power_in line
+					(at 0 -17.78 90)
 					(length 2.54)
-					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -300,11 +299,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 10.16 -5.08 180)
+				(pin bidirectional line
+					(at 10.16 -10.16 180)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -319,11 +317,10 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin bidirectional line
 					(at 10.16 -7.62 180)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "B7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -338,10 +335,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 2.54 0)
+				(pin bidirectional line
+					(at 10.16 -5.08 180)
 					(length 2.54)
-					(name "LRCLK"
+					(name "B6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -356,11 +353,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -2.54 -12.7 90)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
 					(length 2.54)
-					(hide yes)
-					(name "GND"
+					(name "B5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -375,10 +371,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 5.08 0)
+				(pin bidirectional line
+					(at 10.16 0 180)
 					(length 2.54)
-					(name "BCLK"
+					(name "B4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -393,10 +389,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 2.54 -12.7 90)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
 					(length 2.54)
-					(name "PAD"
+					(name "B3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -411,13 +407,67 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 17.78 270)
+					(length 2.54)
+					(name "VCCB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
 	)
 	(symbol
-		(lib_id "Audio:MAX98357A")
-		(at 144.78 99.06 0)
+		(lib_id "Logic_LevelTranslator:TXS0108EPW")
+		(at 149.86 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -426,9 +476,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "32e47b89-8f55-4c85-b53b-5d23f5c98148")
-		(property "Reference" "U6"
-			(at 146.9233 83.82 0)
+		(uuid "4c9f7fd6-30e0-42da-a29f-931a1bcf650e")
+		(property "Reference" "U2"
+			(at 152.0033 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -438,8 +488,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX98357A"
-			(at 146.9233 86.36 0)
+		(property "Value" "TXS0108EPW"
+			(at 152.0033 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -449,8 +499,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm"
-			(at 143.51 101.6 0)
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+			(at 149.86 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -460,8 +510,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf"
-			(at 144.78 101.6 0)
+		(property "Datasheet" "www.ti.com/lit/ds/symlink/txs0108e.pdf"
+			(at 149.86 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -471,8 +521,8 @@
 				)
 			)
 		)
-		(property "Description" "Mono DAC with amplifier, I2S, PCM, TDM, 32-bit, 96khz, 3.2W, TQFP-16"
-			(at 144.78 99.06 0)
+		(property "Description" "Bidirectional  level-shifting voltage translator, TSSOP-20"
+			(at 149.86 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -482,61 +532,70 @@
 				)
 			)
 		)
-		(pin "16"
-			(uuid "53d4f5d9-6c72-404c-8ddf-050ed1c31138")
+		(pin "19"
+			(uuid "1c84adda-ce40-40d5-9497-17d197651252")
 		)
-		(pin "4"
-			(uuid "1d59b6d3-4ae1-4db9-aa98-35362a130d10")
-		)
-		(pin "5"
-			(uuid "d0dea6b6-efb2-4615-b889-79f039db7e6e")
-		)
-		(pin "15"
-			(uuid "77997c50-6346-48f6-86e0-d4c8b4e9f30b")
-		)
-		(pin "12"
-			(uuid "cd23d2ad-5041-466b-89ba-a65e46dd8d0e")
-		)
-		(pin "13"
-			(uuid "66cadb37-1ac9-4463-b8f9-4ae1a496184d")
-		)
-		(pin "17"
-			(uuid "69daec06-0e6c-4d5d-9467-5d2214380bd5")
-		)
-		(pin "2"
-			(uuid "e1d53c29-6cc9-45e2-9376-02e162f79bb0")
-		)
-		(pin "3"
-			(uuid "de3cb72e-0417-4383-8221-0f40350758e4")
-		)
-		(pin "9"
-			(uuid "4881b3b4-416d-434e-80b7-d4f606a722e8")
-		)
-		(pin "1"
-			(uuid "e3373629-ecc3-488b-9121-98dd9f7c24ef")
-		)
-		(pin "10"
-			(uuid "35cc6a06-d598-4a82-9521-b1ef99e91403")
-		)
-		(pin "11"
-			(uuid "53751e2b-18cb-4379-bdd9-d4265109d0d1")
-		)
-		(pin "6"
-			(uuid "7f8b8c2f-be87-414d-8ef1-e1664534c502")
-		)
-		(pin "7"
-			(uuid "1497a87c-8915-4aff-bc0b-d1401ad011b0")
+		(pin "20"
+			(uuid "436c34c3-d7fb-4022-9b0e-6d4ec7eb4b00")
 		)
 		(pin "14"
-			(uuid "bebb0dc7-55fb-40fd-8c7e-3a2956644cc8")
+			(uuid "ea3d2e0e-8fa7-4d2f-bcbd-d62cb44d92cf")
+		)
+		(pin "2"
+			(uuid "bfe67b91-78d5-4615-a8ba-21a1b45ca8e0")
+		)
+		(pin "5"
+			(uuid "e12ce3c3-274e-4d31-96f0-159f8fbdf9b9")
+		)
+		(pin "17"
+			(uuid "7fbf92ab-4809-458c-97f9-e715ed77d0da")
+		)
+		(pin "7"
+			(uuid "f31a806d-0e5d-4721-ba53-de0ef0596817")
+		)
+		(pin "4"
+			(uuid "037dc7d3-d809-44b1-8ef2-cb67c146d535")
+		)
+		(pin "3"
+			(uuid "8443765c-c834-4349-94db-ff2348aabdaa")
+		)
+		(pin "18"
+			(uuid "e8827cf2-9074-4b43-9dda-c69958ee5101")
+		)
+		(pin "9"
+			(uuid "32eac11f-2569-4ea1-909c-609f77d56c5f")
+		)
+		(pin "16"
+			(uuid "ad9cc264-49e9-414c-a6bc-e15d415ab6c9")
+		)
+		(pin "10"
+			(uuid "43fc404c-1214-4ed0-84dc-68843f405242")
+		)
+		(pin "11"
+			(uuid "d72175ee-f2e8-4394-a78b-b9b956e5c9ce")
 		)
 		(pin "8"
-			(uuid "db9d58a1-34d7-4962-a93d-f42c24c8ce66")
+			(uuid "94daf13a-626d-41b3-8d5e-d04c7b8b5e26")
+		)
+		(pin "12"
+			(uuid "ee922512-c46f-4a06-8870-c902bf3492f4")
+		)
+		(pin "15"
+			(uuid "426312a8-404b-4440-a6ba-411318df947b")
+		)
+		(pin "13"
+			(uuid "951173fc-4eb7-4c81-8d01-01da22fb6ba5")
+		)
+		(pin "6"
+			(uuid "5f05fd78-bc5c-44aa-820f-19f564c13c61")
+		)
+		(pin "1"
+			(uuid "2ae5eca7-dd19-4aec-8ce7-77e83a901b8d")
 		)
 		(instances
 			(project "esp32_xiaozhi"
-				(path "/cae338e8-f342-43cb-b99a-a0486629133c/0b8c63fc-3109-4f1a-8140-b91a685f434f"
-					(reference "U6")
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c/2567bb9e-06b8-4d2c-80a7-ee2453b67a65"
+					(reference "U2")
 					(unit 1)
 				)
 			)

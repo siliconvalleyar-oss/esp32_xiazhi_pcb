@@ -52,6 +52,52 @@
 		)
 	)
 	(sheet
+		(at 80.01 40.64)
+		(size 48.26 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2567bb9e-06b8-4d2c-80a7-ee2453b67a65")
+		(property "Sheetname" "TXS0108E"
+			(at 80.01 39.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TXS0108E.kicad_sch"
+			(at 80.01 79.3246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32_xiaozhi"
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 203.2 113.03)
 		(size 46.99 44.45)
 		(exclude_from_sim no)
