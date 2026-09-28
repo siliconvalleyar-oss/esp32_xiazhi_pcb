@@ -3154,7 +3154,7 @@
 		(uuid "6d664053-03b8-4932-aea4-44aac621f9df")
 	)
 	(junction
-		(at 344.17 217.17)
+		(at 318.77 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6edeb790-4ba8-4abb-9b18-054120bd90bc")
@@ -3172,7 +3172,7 @@
 		(uuid "a0da8869-ff98-46e8-bd05-a5d9e58ab945")
 	)
 	(junction
-		(at 330.2 226.06)
+		(at 304.8 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab8826e7-4d85-40fd-8f99-f35281e64be3")
@@ -3319,7 +3319,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 217.17) (xy 350.52 217.17)
+			(xy 318.77 214.63) (xy 325.12 214.63)
 		)
 		(stroke
 			(width 0)
@@ -3339,7 +3339,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 217.17) (xy 344.17 217.17)
+			(xy 316.23 214.63) (xy 318.77 214.63)
 		)
 		(stroke
 			(width 0)
@@ -3609,7 +3609,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 226.06) (xy 344.17 226.06)
+			(xy 304.8 223.52) (xy 318.77 223.52)
 		)
 		(stroke
 			(width 0)
@@ -3849,7 +3849,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 217.17) (xy 330.2 226.06)
+			(xy 304.8 214.63) (xy 304.8 223.52)
 		)
 		(stroke
 			(width 0)
@@ -3969,7 +3969,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 217.17) (xy 344.17 218.44)
+			(xy 318.77 214.63) (xy 318.77 215.9)
 		)
 		(stroke
 			(width 0)
@@ -4569,7 +4569,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 217.17) (xy 330.2 217.17)
+			(xy 306.07 214.63) (xy 304.8 214.63)
 		)
 		(stroke
 			(width 0)
@@ -5947,7 +5947,7 @@
 		)
 		(uuid "fe5681ab-9dc7-46f9-add4-7f11ce5d0b0a")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO1"
 		(shape input)
 		(at 195.58 100.33 180)
 		(effects
@@ -5958,7 +5958,7 @@
 		)
 		(uuid "04dd518b-03a0-4c69-bb28-a19f03cfbada")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO0"
 		(shape input)
 		(at 195.58 95.25 180)
 		(effects
@@ -5969,7 +5969,7 @@
 		)
 		(uuid "07611688-7307-4de7-b90e-0f7cf317e311")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO18"
 		(shape input)
 		(at 195.58 143.51 180)
 		(effects
@@ -5980,7 +5980,7 @@
 		)
 		(uuid "1929d548-8695-4fa7-a5e3-b55b49881990")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO4"
 		(shape input)
 		(at 195.58 107.95 180)
 		(effects
@@ -5991,7 +5991,7 @@
 		)
 		(uuid "1dee8586-d891-4867-b143-283a75d8b1b4")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO43"
 		(shape input)
 		(at 195.58 146.05 180)
 		(effects
@@ -6002,7 +6002,7 @@
 		)
 		(uuid "21af3b4c-891f-4d29-88f2-00ebdbf1ec3b")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO15"
 		(shape input)
 		(at 195.58 135.89 180)
 		(effects
@@ -6013,7 +6013,7 @@
 		)
 		(uuid "227c350d-453f-4162-8d91-0502abf7c9bc")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO14"
 		(shape input)
 		(at 195.58 133.35 180)
 		(effects
@@ -6024,7 +6024,7 @@
 		)
 		(uuid "26f25a40-9f12-40a7-92c2-90b533da34fa")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO10"
 		(shape input)
 		(at 195.58 123.19 180)
 		(effects
@@ -6035,7 +6035,7 @@
 		)
 		(uuid "2b39010e-a471-48c3-ac94-61d5f5bfd4e2")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO17"
 		(shape input)
 		(at 195.58 140.97 180)
 		(effects
@@ -6046,7 +6046,7 @@
 		)
 		(uuid "438bacb3-9263-46e6-a23a-b4b7caa3970c")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO16"
 		(shape input)
 		(at 195.58 138.43 180)
 		(effects
@@ -6057,7 +6057,7 @@
 		)
 		(uuid "4dc3d509-fcd4-457d-a876-70d02b23c97a")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO37"
 		(shape input)
 		(at 195.58 168.91 180)
 		(effects
@@ -6068,7 +6068,7 @@
 		)
 		(uuid "4e853407-5fc6-4ae9-b451-7aad71abb827")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO47"
 		(shape input)
 		(at 195.58 161.29 180)
 		(effects
@@ -6079,7 +6079,7 @@
 		)
 		(uuid "50968755-802c-4170-ba03-1a6d2155c229")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO44"
 		(shape input)
 		(at 195.58 148.59 180)
 		(effects
@@ -6090,7 +6090,7 @@
 		)
 		(uuid "5ad441da-d515-46b2-9cee-c743bb7ec37b")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO7"
 		(shape input)
 		(at 195.58 115.57 180)
 		(effects
@@ -6101,7 +6101,7 @@
 		)
 		(uuid "684914d0-d830-41d6-ae20-1331bd5c4ec8")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO38"
 		(shape input)
 		(at 195.58 171.45 180)
 		(effects
@@ -6112,7 +6112,7 @@
 		)
 		(uuid "695fd301-5648-4304-a466-d38e44e87eba")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO2"
 		(shape input)
 		(at 195.58 102.87 180)
 		(effects
@@ -6123,7 +6123,7 @@
 		)
 		(uuid "73b2d171-8e80-40f6-b09b-4b2af414d111")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO21"
 		(shape input)
 		(at 195.58 151.13 180)
 		(effects
@@ -6134,7 +6134,7 @@
 		)
 		(uuid "7c5d72aa-6b3b-4fb9-a5ee-5bfe0218db52")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO40"
 		(shape input)
 		(at 195.58 176.53 180)
 		(effects
@@ -6145,7 +6145,7 @@
 		)
 		(uuid "8af47383-b786-4bcb-9301-1a5aa350ddef")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO41"
 		(shape input)
 		(at 195.58 179.07 180)
 		(effects
@@ -6156,7 +6156,7 @@
 		)
 		(uuid "8c739097-5f41-4fe9-841c-33048b99c4cb")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO42"
 		(shape input)
 		(at 195.58 181.61 180)
 		(effects
@@ -6167,7 +6167,7 @@
 		)
 		(uuid "90780a5f-9e7e-4783-a072-cff82ac3e7a4")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO12"
 		(shape input)
 		(at 195.58 128.27 180)
 		(effects
@@ -6178,7 +6178,7 @@
 		)
 		(uuid "9e199f80-e3cf-4825-9d92-b6d76b18dc27")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO5"
 		(shape input)
 		(at 195.58 110.49 180)
 		(effects
@@ -6189,7 +6189,7 @@
 		)
 		(uuid "9e55b9c0-5937-4338-bcfb-b5ed8405be7f")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO48"
 		(shape input)
 		(at 195.58 158.75 180)
 		(effects
@@ -6200,7 +6200,7 @@
 		)
 		(uuid "a7238ab4-a8b3-487d-89fb-3973aab2839e")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO3"
 		(shape input)
 		(at 195.58 105.41 180)
 		(effects
@@ -6211,7 +6211,7 @@
 		)
 		(uuid "aeab0312-b784-4243-a8b5-fb7c6e332675")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO39"
 		(shape input)
 		(at 195.58 173.99 180)
 		(effects
@@ -6222,7 +6222,7 @@
 		)
 		(uuid "b2e7c2ee-aa93-40b4-b019-b2fb27cf035e")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO13"
 		(shape input)
 		(at 195.58 130.81 180)
 		(effects
@@ -6233,7 +6233,7 @@
 		)
 		(uuid "b49e1c49-54be-4008-918c-c29caeebba90")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO6"
 		(shape input)
 		(at 195.58 113.03 180)
 		(effects
@@ -6244,7 +6244,7 @@
 		)
 		(uuid "ba02e628-b4f3-47b5-a624-ff26095a1f10")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO9"
 		(shape input)
 		(at 195.58 120.65 180)
 		(effects
@@ -6255,7 +6255,7 @@
 		)
 		(uuid "cf4a7e1f-4d1f-4664-82a6-18d746dae971")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO35"
 		(shape input)
 		(at 195.58 163.83 180)
 		(effects
@@ -6266,7 +6266,7 @@
 		)
 		(uuid "d0de1b63-8493-4d9c-a3ab-14349c472175")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO46"
 		(shape input)
 		(at 195.58 156.21 180)
 		(effects
@@ -6277,7 +6277,7 @@
 		)
 		(uuid "de1103b4-491e-42bb-b0ab-f076abb79841")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO36"
 		(shape input)
 		(at 195.58 166.37 180)
 		(effects
@@ -6288,7 +6288,7 @@
 		)
 		(uuid "eca643fc-1353-47ed-9858-f7e97caa27c1")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "EN"
 		(shape input)
 		(at 195.58 97.79 180)
 		(effects
@@ -6299,7 +6299,7 @@
 		)
 		(uuid "fb0ddf92-095c-4ab8-850d-e186b138d8f2")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO45"
 		(shape input)
 		(at 195.58 153.67 180)
 		(effects
@@ -6310,7 +6310,7 @@
 		)
 		(uuid "fd36826f-61ed-448d-8a4a-4f2ec393b242")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO11"
 		(shape input)
 		(at 195.58 125.73 180)
 		(effects
@@ -6321,7 +6321,7 @@
 		)
 		(uuid "ffa333d7-0cb6-47b8-86d8-77f4926198e9")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO8"
 		(shape input)
 		(at 195.58 118.11 180)
 		(effects
@@ -6794,7 +6794,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 330.2 226.06 0)
+		(at 304.8 223.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6805,7 +6805,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a601682-7721-4581-80ba-d1f71712ce6c")
 		(property "Reference" "#PWR074"
-			(at 330.2 232.41 0)
+			(at 304.8 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6816,7 +6816,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 330.2 231.14 0)
+			(at 304.8 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6826,7 +6826,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 330.2 226.06 0)
+			(at 304.8 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6837,7 +6837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 226.06 0)
+			(at 304.8 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6848,7 +6848,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 330.2 226.06 0)
+			(at 304.8 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7716,7 +7716,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 344.17 222.25 90)
+		(at 318.77 219.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7727,7 +7727,7 @@
 		(fields_autoplaced yes)
 		(uuid "3af9f8cd-3fb5-4e95-b49d-e4325ac1e57c")
 		(property "Reference" "D11"
-			(at 346.71 220.9799 90)
+			(at 321.31 218.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7738,7 +7738,7 @@
 			)
 		)
 		(property "Value" "ESD3.3"
-			(at 346.71 223.5199 90)
+			(at 321.31 220.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7749,7 +7749,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-923"
-			(at 344.17 222.25 0)
+			(at 318.77 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7760,7 +7760,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 344.17 222.25 0)
+			(at 318.77 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7771,7 +7771,7 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
-			(at 344.17 222.25 0)
+			(at 318.77 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8868,7 +8868,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 336.55 217.17 0)
+		(at 311.15 214.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8879,7 +8879,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe33dfa4-1908-43ac-a455-b0c9c6d24465")
 		(property "Reference" "SW9"
-			(at 336.55 210.82 0)
+			(at 311.15 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8889,7 +8889,7 @@
 			)
 		)
 		(property "Value" "boot"
-			(at 336.55 213.36 0)
+			(at 311.15 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8899,7 +8899,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
-			(at 336.55 217.17 0)
+			(at 311.15 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8910,7 +8910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 217.17 0)
+			(at 311.15 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8921,7 +8921,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 336.55 217.17 0)
+			(at 311.15 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
