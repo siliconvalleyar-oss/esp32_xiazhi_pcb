@@ -632,17 +632,13 @@
         "uuid": "cae338e8-f342-43cb-b99a-a0486629133c"
       }
     ],
-    "used_designators": "U8,#PWR77,#PWR96-99",
+    "used_designators": "U4,R28-29,L2,J5-6,C3-4,C11,C19-20,#PWR18,#PWR29-31,#PWR41",
     "variants": []
   },
   "sheets": [
     [
       "cae338e8-f342-43cb-b99a-a0486629133c",
       "Root"
-    ],
-    [
-      "99dbbdf2-0f67-4248-a995-74d5ebf0be3f",
-      "esp32_C6"
     ],
     [
       "62520ce4-d21b-4842-a32d-5b11b343b2aa",
@@ -667,10 +663,6 @@
     [
       "58539eaf-f84e-4892-8e51-2f1825749ca1",
       "power_supply"
-    ],
-    [
-      "78123daa-216c-4430-990d-f471f5bcbf11",
-      "usb_conector_Ft232"
     ],
     [
       "2567bb9e-06b8-4d2c-80a7-ee2453b67a65",

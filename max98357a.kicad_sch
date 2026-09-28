@@ -1775,7 +1775,7 @@
 		)
 		(uuid "9e1cfcc5-2a15-41cb-9379-5adef5a9a324")
 	)
-	(hierarchical_label "pad"
+	(hierarchical_label "PAD"
 		(shape input)
 		(at 147.32 116.84 270)
 		(effects
