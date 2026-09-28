@@ -632,7 +632,7 @@
         "uuid": "cae338e8-f342-43cb-b99a-a0486629133c"
       }
     ],
-    "used_designators": "U8,#PWR77,#PWR96-99",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -674,15 +674,11 @@
     ],
     [
       "2567bb9e-06b8-4d2c-80a7-ee2453b67a65",
-      "TXS0108E"
-    ],
-    [
-      "f09be783-015d-4d67-84e2-09b66e66b26f",
-      "esp32_s3"
+      "Logic_convert"
     ],
     [
       "b7e49ed6-2c8b-4b20-b685-7db8f3967479",
-      "Battery"
+      "Clock"
     ]
   ],
   "text_variables": {},
