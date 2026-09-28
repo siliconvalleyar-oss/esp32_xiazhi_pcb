@@ -1417,12 +1417,6 @@
 		(uuid "597c464b-0397-4ac8-87fe-2a7db73b74ea")
 	)
 	(junction
-		(at 132.08 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "622232ee-625e-43ee-8e18-6d8753717c23")
-	)
-	(junction
 		(at 162.56 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1450,16 +1444,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 83.82) (xy 132.08 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1162f5dd-5a03-4469-bbb9-624c2e470649")
-	)
-	(wire
-		(pts
 			(xy 116.84 111.76) (xy 119.38 111.76)
 		)
 		(stroke
@@ -1467,16 +1451,6 @@
 			(type default)
 		)
 		(uuid "1e941a62-edd5-46b6-9884-a9085068658d")
-	)
-	(wire
-		(pts
-			(xy 132.08 71.12) (xy 132.08 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f0de768-2b40-4eb2-98f4-126b6ddba146")
 	)
 	(wire
 		(pts
@@ -1500,7 +1474,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 83.82) (xy 127 92.71)
+			(xy 135.89 83.82) (xy 135.89 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1510,7 +1484,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 83.82) (xy 132.08 83.82)
+			(xy 135.89 83.82) (xy 142.24 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1600,16 +1574,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 71.12) (xy 132.08 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6eb50ed-3e1b-414d-9458-0772277af260")
-	)
-	(wire
-		(pts
 			(xy 162.56 77.47) (xy 162.56 83.82)
 		)
 		(stroke
@@ -1627,6 +1591,16 @@
 			(type default)
 		)
 		(uuid "aaea906c-e265-4282-bd4b-bb3c848b0b1e")
+	)
+	(wire
+		(pts
+			(xy 135.89 92.71) (xy 127 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc4bd1d-b2b4-4152-8d96-cd4269b10385")
 	)
 	(wire
 		(pts
@@ -1874,7 +1848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:USB_Mini-B_Wuerth_65100516121_Horizontal"
+		(property "Footprint" "kiC:USB_Mini-B_Lumberg_2486_01_Horizontal"
 			(at 123.19 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1928,82 +1902,6 @@
 			(project "esp32_xiaozhi"
 				(path "/cae338e8-f342-43cb-b99a-a0486629133c/62520ce4-d21b-4842-a32d-5b11b343b2aa/78123daa-216c-4430-990d-f471f5bcbf11"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 115.57 71.12 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "54a39630-bcee-4ac1-81b9-76a020cce4cd")
-		(property "Reference" "J4"
-			(at 114.3 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "tp_ft232_"
-			(at 124.46 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:connector_pin1"
-			(at 115.57 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 115.57 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04692123-4d1a-42cb-9001-0515c912e821")
-		)
-		(instances
-			(project "esp32_xiaozhi"
-				(path "/cae338e8-f342-43cb-b99a-a0486629133c/62520ce4-d21b-4842-a32d-5b11b343b2aa/78123daa-216c-4430-990d-f471f5bcbf11"
-					(reference "J4")
 					(unit 1)
 				)
 			)

@@ -632,7 +632,7 @@
         "uuid": "cae338e8-f342-43cb-b99a-a0486629133c"
       }
     ],
-    "used_designators": "MK1,SW1-5,U2,U4-6,JP1-2,R10-15,R28-32,L2,J4-14,J21-22,C1-10,C19-20,C23-26,C29,C31-36,#PWR4-5,#PWR14-19,#PWR29-31,#PWR34-40,#PWR63-68,#PWR80-81",
+    "used_designators": "U8,#PWR77,#PWR96-99",
     "variants": []
   },
   "sheets": [
@@ -642,7 +642,7 @@
     ],
     [
       "99dbbdf2-0f67-4248-a995-74d5ebf0be3f",
-      "esp32_c6"
+      "esp32_C6"
     ],
     [
       "62520ce4-d21b-4842-a32d-5b11b343b2aa",
@@ -669,24 +669,20 @@
       "power_supply"
     ],
     [
-      "faee44ac-1ab6-4003-9feb-0b2f667451e6",
-      "osc_ft232"
-    ],
-    [
-      "95f62453-5a0b-49fd-b19a-63a76d8bbe12",
-      "power_ft232"
-    ],
-    [
-      "c89f5fdd-d6e5-4dfa-a61a-3c5c0ebd1f04",
-      "tp_ft232"
-    ],
-    [
       "78123daa-216c-4430-990d-f471f5bcbf11",
       "usb_conector_Ft232"
     ],
     [
       "2567bb9e-06b8-4d2c-80a7-ee2453b67a65",
       "TXS0108E"
+    ],
+    [
+      "f09be783-015d-4d67-84e2-09b66e66b26f",
+      "esp32_s3"
+    ],
+    [
+      "b7e49ed6-2c8b-4b20-b685-7db8f3967479",
+      "Battery"
     ]
   ],
   "text_variables": {},

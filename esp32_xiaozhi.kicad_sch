@@ -89,6 +89,176 @@
 				(justify left top)
 			)
 		)
+		(pin "A1" input
+			(at 80.01 45.72 180)
+			(uuid "f84bed94-5772-49a4-813a-2b14ee6814eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A2" input
+			(at 80.01 48.26 180)
+			(uuid "b1dd1d7e-94c3-459e-b2a7-28ce859aabea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A3" input
+			(at 80.01 50.8 180)
+			(uuid "a041f8d9-7811-4f79-a1d9-0ab001c89cea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A4" input
+			(at 80.01 53.34 180)
+			(uuid "dc10fc2f-10f4-4316-a6ec-93250e025901")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A5" input
+			(at 80.01 55.88 180)
+			(uuid "09c456fa-94cd-4711-9dc6-5444f5272e69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A6" input
+			(at 80.01 58.42 180)
+			(uuid "3a4a9436-8375-4cc0-9a8c-fe2b368ba6bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A7" input
+			(at 80.01 60.96 180)
+			(uuid "76210c98-5068-42a3-ae69-a176e9e4d318")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A8" input
+			(at 80.01 63.5 180)
+			(uuid "24c1d8f5-3e9e-4240-9683-856754a69762")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B1" input
+			(at 128.27 46.99 0)
+			(uuid "de7556ae-9fb9-407c-b0d5-45350b2aea02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B2" input
+			(at 128.27 49.53 0)
+			(uuid "8b53b38c-d40f-433a-a30c-49bfd56b5c2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B3" input
+			(at 128.27 52.07 0)
+			(uuid "1ec9035c-a569-406f-8b6b-271ec6d95804")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B4" input
+			(at 128.27 54.61 0)
+			(uuid "2f2f7e4c-3e80-45a2-970d-078ceed66c46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B5" input
+			(at 128.27 57.15 0)
+			(uuid "abe67fe1-dace-48e4-8b31-5ee5331d5cf9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B6" input
+			(at 128.27 59.69 0)
+			(uuid "02fe0a21-6180-4fab-9b0f-45c4ba2ffefc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B7" input
+			(at 128.27 62.23 0)
+			(uuid "b46f541b-d832-4add-bb0e-75f6b6205ceb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B8" input
+			(at 128.27 64.77 0)
+			(uuid "d5b133b3-6b2f-4175-9c83-b030e12a2920")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OE" input
+			(at 80.01 69.85 180)
+			(uuid "b22a9237-49f5-40dc-906a-96549b3e6dd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "esp32_xiaozhi"
 				(path "/cae338e8-f342-43cb-b99a-a0486629133c"
@@ -251,7 +421,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "99dbbdf2-0f67-4248-a995-74d5ebf0be3f")
-		(property "Sheetname" "esp32_c6"
+		(property "Sheetname" "esp32_C6"
 			(at 31.75 38.6584 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -277,6 +447,52 @@
 			(project "esp32_xiaozhi"
 				(path "/cae338e8-f342-43cb-b99a-a0486629133c"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 92.71)
+		(size 44.45 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b7e49ed6-2c8b-4b20-b685-7db8f3967479")
+		(property "Sheetname" "Battery"
+			(at 90.17 91.9984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Battery.kicad_sch"
+			(at 90.17 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32_xiaozhi"
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c"
+					(page "15")
 				)
 			)
 		)
@@ -365,10 +581,106 @@
 				(justify left top)
 			)
 		)
+		(pin "EN" input
+			(at 142.24 46.99 180)
+			(uuid "836b52f6-65f6-4548-829d-ceb6ab2c99dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "L{slash}R" input
+			(at 142.24 49.53 180)
+			(uuid "ebfdcc80-ef43-4479-a30f-d6dec873d3a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" input
+			(at 142.24 52.07 180)
+			(uuid "6dbea102-c9aa-4c48-9047-80b5fe61cb97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD" input
+			(at 142.24 54.61 180)
+			(uuid "a1f5ea20-e7ef-46e6-bf08-b2a7463227e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WS" input
+			(at 142.24 57.15 180)
+			(uuid "b08b3911-14b5-477b-9aaf-c1c4b0e0f33c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "esp32_xiaozhi"
 				(path "/cae338e8-f342-43cb-b99a-a0486629133c"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 91.44)
+		(size 39.37 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f09be783-015d-4d67-84e2-09b66e66b26f")
+		(property "Sheetname" "esp32_s3"
+			(at 35.56 90.7284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32_S3.kicad_sch"
+			(at 35.56 105.9946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32_xiaozhi"
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c"
+					(page "14")
 				)
 			)
 		)
