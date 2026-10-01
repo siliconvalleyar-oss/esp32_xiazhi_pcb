@@ -632,7 +632,7 @@
         "uuid": "cae338e8-f342-43cb-b99a-a0486629133c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "SW1-10,U1-7,Q1-11,MK1,L1-6,R1-53,JP1-6,J1-11,D1-7,C1-39,Y1,LS1,#PWR1-106",
     "variants": []
   },
   "sheets": [
@@ -669,16 +669,12 @@
       "power_supply"
     ],
     [
-      "78123daa-216c-4430-990d-f471f5bcbf11",
-      "usb_conector_Ft232"
+      "48c69a19-5dbf-4d8f-8d4c-5f90e1f766ed",
+      "micro_sd"
     ],
     [
       "2567bb9e-06b8-4d2c-80a7-ee2453b67a65",
       "Logic_convert"
-    ],
-    [
-      "b7e49ed6-2c8b-4b20-b685-7db8f3967479",
-      "Clock"
     ]
   ],
   "text_variables": {},
