@@ -7176,7 +7176,7 @@
 				(justify mirror)
 			)
 		)
-		(		(property "Value" "tp"
+		(property "Value" "tp"
 			(at 0 -1.75 0)
 			(layer "B.Fab")
 			(uuid "ccbaad36-c664-4cd3-abc1-1335e633c7b2")
@@ -7862,4 +7862,4 @@ property "Description" "Generic connector, single row, 01x01, script generated"
 		)
 	)
 	(embedded_fonts no)
-)
+
