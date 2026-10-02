@@ -53723,15 +53723,14 @@
 			(uuid "5c809c88-efb7-444e-b454-41a3232218a9")
 			(effects
 				(font
-					(font
-	(face "Arial")
-	(size 0.7 0.7)
-	(thickness 0.1)
-)
+
+					(face "Arial")
+
 					(size 0.7 0.7)
+
 					(thickness 0.1)
-				
-			)
+
+				)
 		)
 	)
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
@@ -53746,15 +53745,14 @@
 			(uuid "9b0527ae-60bf-4aa8-ba2b-dbefc08d7855")
 			(effects
 				(font
-					(font
-	(face "Arial")
-	(size 0.7 0.7)
-	(thickness 0.1)
-)
+
+					(face "Arial")
+
 					(size 0.7 0.7)
+
 					(thickness 0.1)
-				
-			)
+
+				)
 		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
@@ -53768,13 +53766,11 @@
 			(layer "B.SilkS")
 			(uuid "2d903789-c2a9-4731-a430-0e02ea17106a")
 			(effects
-				(font(font
+				(font
 	(face "Arial")
 	(size 0.7 0.7)
 	(thickness 0.1)
 )
-					(thickness 0.15)
-				)
 				(justify mirror)
 			)
 		)
@@ -53888,13 +53884,11 @@
 			(layer "B.SilkS")
 			(uuid "6e39a29f-e596-441b-af43-9fb650d1ccd8")
 			(effects
-				(font(font
+				(font
 	(face "Arial")
 	(size 0.7 0.7)
 	(thickness 0.1)
 )
-					(thickness 0.15)
-				)
 				(justify mirror)
 			)
 		)
@@ -54005,13 +53999,11 @@
 			(layer "B.SilkS")
 			(uuid "b056fc6b-e2f1-4eb9-975a-85242a946118")
 			(effects
-				(font(font
+				(font
 	(face "Arial")
 	(size 0.7 0.7)
 	(thickness 0.1)
 )
-					(thickness 0.15)
-				)
 				(justify mirror)
 			)
 		)
@@ -54122,13 +54114,11 @@
 			(layer "B.SilkS")
 			(uuid "e1ac746d-90de-48bb-bc4a-6493c55e0191")
 			(effects
-				(font(font
+				(font
 	(face "Arial")
 	(size 0.7 0.7)
 	(thickness 0.1)
 )
-					(thickness 0.15)
-				)
 				(justify mirror)
 			)
 		)
