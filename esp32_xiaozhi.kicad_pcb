@@ -7859,7 +7859,6 @@ property "Description" "Generic connector, single row, 01x01, script generated"
 			"f402c347-4209-4881-825a-0797aabc8473" "f63b9447-8ab9-4f41-a84b-af1573a083da"
 			"fc2959ed-bcf4-44a5-bb50-34be3045ab3d" "fc59c129-0f30-41b0-8657-b650c0475e8b"
 			"fdd8815e-62d1-4399-9f9e-575c557c74b7"
+	(embedded_fonts no)
 		)
 	)
-	(embedded_fonts no)
-
