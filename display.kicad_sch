@@ -1553,7 +1553,17 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 134.62) (xy 110.49 137.16)
+			(xy 40.64 97.79) (xy 48.26 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1306328e-4327-461f-a404-e67edd497cbd")
+	)
+	(wire
+		(pts
+			(xy 110.49 134.62) (xy 110.49 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1613,6 +1623,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 138.43) (xy 110.49 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "477c3194-bf79-48c8-a08c-da1d511514d3")
+	)
+	(wire
+		(pts
 			(xy 163.83 133.35) (xy 177.8 133.35)
 		)
 		(stroke
@@ -1630,16 +1650,6 @@
 			(type default)
 		)
 		(uuid "5c460977-7b2c-4099-9448-169420740ff2")
-	)
-	(wire
-		(pts
-			(xy 43.18 92.71) (xy 48.26 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a0ce5ac-b4f2-4bf1-81b0-2d84fee895c1")
 	)
 	(wire
 		(pts
@@ -1703,13 +1713,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 137.16) (xy 96.52 137.16)
+			(xy 43.18 92.71) (xy 48.26 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9338f9e6-70d8-4e98-b7ee-ab53edb3b3da")
+		(uuid "99a1d56f-40eb-4963-ad65-703b5d0447f5")
 	)
 	(wire
 		(pts
@@ -1730,16 +1740,6 @@
 			(type default)
 		)
 		(uuid "ac7c7255-836b-4c46-9f7a-6cf3df21bab6")
-	)
-	(wire
-		(pts
-			(xy 41.91 97.79) (xy 48.26 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdc45582-b708-472f-abe4-15812ee4db97")
 	)
 	(wire
 		(pts
@@ -1792,7 +1792,7 @@
 		(uuid "5ad3fc00-62fe-470b-8100-5a04346d2346")
 	)
 	(label "SCL"
-		(at 45.72 92.71 180)
+		(at 43.18 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1802,7 +1802,7 @@
 		(uuid "7a71c860-29ea-47c5-90e1-7bd69b2770db")
 	)
 	(label "SDA"
-		(at 105.41 137.16 180)
+		(at 104.14 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1812,7 +1812,7 @@
 		(uuid "ab5e32fa-3813-42d9-b1de-08ed72dea06e")
 	)
 	(label "SDA"
-		(at 44.45 97.79 180)
+		(at 40.64 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1842,9 +1842,9 @@
 		)
 		(uuid "0f9c156c-b98f-4d5b-b1cc-ef3b72d88cd8")
 	)
-	(hierarchical_label "sda"
+	(hierarchical_label "SDA"
 		(shape input)
-		(at 96.52 137.16 180)
+		(at 96.52 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1875,7 +1875,7 @@
 		)
 		(uuid "7be06d5f-a5c1-46e9-8b77-7d405b38c2e8")
 	)
-	(hierarchical_label "scl"
+	(hierarchical_label "SCL"
 		(shape input)
 		(at 83.82 124.46 180)
 		(effects
