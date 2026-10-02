@@ -3840,4 +3840,96 @@
 			)
 		)
 	)
+
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 50.0 50.0 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "e3f4a5b6-7890-12cd-ef01-234567890123")
+		(property "Reference" "#FLG040"
+			(at 50.0 45.0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 50.0 55.0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3f4a5b6-7890-12cd-ef01-234567890123-pin1")
+		)
+		(instances
+			(project "esp32_xiaozhi"
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c/d2e61921-5974-44e2-9221-de7c05f17e70"
+					(reference "#FLG040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 50.0 100.0 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "e3f4a5b6-7890-12cd-ef01-234567890124")
+		(property "Reference" "#FLG041"
+			(at 50.0 95.0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 50.0 105.0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3f4a5b6-7890-12cd-ef01-234567890124-pin1")
+		)
+		(instances
+			(project "esp32_xiaozhi"
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c/d2e61921-5974-44e2-9221-de7c05f17e70"
+					(reference "#FLG041")
+					(unit 1)
+				)
+			)
+		)
+	)
+
 )
