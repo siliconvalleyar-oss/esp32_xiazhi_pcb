@@ -1,0 +1,66 @@
+ERC report (2026-10-02T03:01:11, Encoding UTF8)
+Report includes: Errors, Exclusions
+
+***** Sheet /
+
+***** Sheet /esp32_C6/
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(2550 mils, 4600 mils): Symbol J21 Pin 5 [GND1, Power output, Line]
+    @(11400 mils, 2900 mils): Symbol J3 Pin 5 [GND1, Power output, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(13950 mils, 7850 mils): Symbol #PWR029 Hidden pin 1 [+3.3V, Power input, Line]
+
+***** Sheet /ft232/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(8150 mils, 3900 mils): Symbol U3 Pin 3 [VCC, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(8350 mils, 3900 mils): Symbol U3 Pin 30 [AVCC, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(3850 mils, 8450 mils): Symbol #PWR014 Hidden pin 1 [GND1, Power input, Line]
+
+***** Sheet /inmp441/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(6250 mils, 2550 mils): Symbol MK1 Pin 7 [VDD, Power input, Line]
+[pin_to_pin]: Pins of type Output and Output are connected
+    ; error
+    @(6250 mils, 2850 mils): Symbol MK1 Pin 2 [SD, Output, Line]
+    @(5200 mils, 4850 mils): Symbol MK3 Pin 2 [SD, Output, Line]
+[pin_to_pin]: Pins of type Output and Output are connected
+    ; error
+    @(7850 mils, 4900 mils): Symbol MK2 Pin 2 [SD, Output, Line]
+    @(5200 mils, 4850 mils): Symbol MK3 Pin 2 [SD, Output, Line]
+
+***** Sheet /max98357a/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(5700 mils, 3400 mils): Symbol U5 Pin 7 [VDD, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(5600 mils, 4400 mils): Symbol U5 Pin 3 [GND, Power input, Line]
+
+***** Sheet /led_sw_gpio/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(14500 mils, 8400 mils): Symbol D7 Pin 1 [VDD, Power input, Line]
+
+***** Sheet /display/
+
+***** Sheet /power_supply/
+
+***** Sheet /micro_sd/
+
+***** Sheet /Logic_convert/
+
+ ** ERC messages: 11  Errors 11  Warnings 0
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

@@ -1914,7 +1914,7 @@
 		(uuid "fe5083b4-f0e3-4d35-93f3-ab9a35bb9678")
 	)
 	(no_connect
-		(at 374.65 220.98)
+		(at 375.92 220.98)
 		(uuid "98d73859-8fac-4178-bce6-5b59b54460be")
 	)
 	(wire
@@ -2079,7 +2079,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 218.44) (xy 359.41 218.44)
+			(xy 356.87 220.98) (xy 360.68 220.98)
 		)
 		(stroke
 			(width 0)
@@ -2239,7 +2239,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 228.6) (xy 367.03 233.68)
+			(xy 368.3 228.6) (xy 368.3 233.68)
 		)
 		(stroke
 			(width 0)
@@ -2389,7 +2389,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 233.68) (xy 365.76 233.68)
+			(xy 368.3 233.68) (xy 365.76 233.68)
 		)
 		(stroke
 			(width 0)
@@ -2429,7 +2429,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 210.82) (xy 367.03 213.36)
+			(xy 368.3 210.82) (xy 368.3 213.36)
 		)
 		(stroke
 			(width 0)
@@ -2559,23 +2559,13 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 201.93) (xy 307.34 200.66)
+			(xy 307.34 201.93) (xy 307.34 198.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d862daa2-2b37-4628-86f5-27c560625553")
-	)
-	(wire
-		(pts
-			(xy 359.41 218.44) (xy 359.41 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dff8bc39-9d6e-4dad-9f0a-8182286a370f")
 	)
 	(wire
 		(pts
@@ -2609,16 +2599,6 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 210.82) (xy 369.57 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8b322d3-1cc9-4034-85f8-126fd515eeb9")
-	)
-	(wire
-		(pts
 			(xy 125.73 105.41) (xy 125.73 116.84)
 		)
 		(stroke
@@ -2649,6 +2629,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 189.23) (xy 307.34 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9d3086d-a324-4897-96a0-987861289f8e")
+	)
+	(wire
+		(pts
 			(xy 82.55 210.82) (xy 82.55 215.9)
 		)
 		(stroke
@@ -2659,7 +2649,7 @@
 	)
 	(global_label "LED_Data_5V"
 		(shape input)
-		(at 307.34 201.93 0)
+		(at 307.34 199.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2669,7 +2659,7 @@
 		)
 		(uuid "15e17dee-7acb-4669-b09b-ad3470c95d39")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 322.2993 201.93 0)
+			(at 322.2993 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2683,7 +2673,7 @@
 	)
 	(global_label "LED_Data_5V"
 		(shape input)
-		(at 356.87 218.44 180)
+		(at 356.87 220.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2693,7 +2683,7 @@
 		)
 		(uuid "fe1b4362-2f45-4231-89ca-07ef6ebe7549")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 341.9901 218.44 0)
+			(at 341.9901 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5444,7 +5434,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 369.57 210.82 0)
+		(at 368.3 210.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5455,7 +5445,7 @@
 		(fields_autoplaced yes)
 		(uuid "874664d7-eeaa-44b8-af53-1f537ffbfc9b")
 		(property "Reference" "#PWR065"
-			(at 369.57 214.63 0)
+			(at 368.3 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5466,7 +5456,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 372.11 209.5499 0)
+			(at 370.84 209.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5477,7 +5467,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 369.57 210.82 0)
+			(at 368.3 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5488,7 +5478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 369.57 210.82 0)
+			(at 368.3 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5499,7 +5489,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 369.57 210.82 0)
+			(at 368.3 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6318,7 +6308,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 367.03 220.98 0)
+		(at 368.3 220.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6328,7 +6318,7 @@
 		(dnp no)
 		(uuid "ba95fad4-75dc-49e6-8b46-d4375484684c")
 		(property "Reference" "D7"
-			(at 362.585 214.63 0)
+			(at 363.855 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6338,7 +6328,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 372.11 214.63 0)
+			(at 373.38 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6348,7 +6338,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 368.3 228.6 0)
+			(at 369.57 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6360,7 +6350,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 369.57 230.505 0)
+			(at 370.84 230.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6372,7 +6362,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 367.03 220.98 0)
+			(at 368.3 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6382,7 +6372,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2761795"
-			(at 367.03 220.98 0)
+			(at 368.3 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6816,7 +6806,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 307.34 193.04 0)
+		(at 307.34 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6827,7 +6817,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0dd2355-d943-4404-8eae-bc5dbcd5b1b7")
 		(property "Reference" "#PWR063"
-			(at 307.34 196.85 0)
+			(at 307.34 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6838,7 +6828,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 309.88 191.7699 0)
+			(at 309.88 187.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6849,7 +6839,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 307.34 193.04 0)
+			(at 307.34 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6860,7 +6850,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 307.34 193.04 0)
+			(at 307.34 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6871,7 +6861,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 307.34 193.04 0)
+			(at 307.34 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6973,7 +6963,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 307.34 196.85 180)
+		(at 307.34 194.31 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6984,17 +6974,6 @@
 		(fields_autoplaced yes)
 		(uuid "f765fcb7-1d14-408b-a615-9632cdcbf758")
 		(property "Reference" "R40"
-			(at 304.8 198.1201 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2k2"
 			(at 304.8 195.5801 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7005,8 +6984,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "2k2"
+			(at 304.8 193.0401 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 309.118 196.85 90)
+			(at 309.118 194.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7017,7 +7007,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 307.34 196.85 0)
+			(at 307.34 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7028,7 +7018,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 307.34 196.85 0)
+			(at 307.34 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

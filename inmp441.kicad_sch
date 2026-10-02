@@ -1292,10 +1292,10 @@
 		(uuid "16da4506-1e0e-4423-b41e-d39d532976f6")
 	)
 	(junction
-		(at 160.02 66.04)
+		(at 111.76 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "20c1bd51-f209-45fd-ad0b-706436953cae")
+		(uuid "19227691-6f81-4d61-92fb-a056713fcb16")
 	)
 	(junction
 		(at 172.72 66.04)
@@ -1308,6 +1308,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b646fd6-1256-4955-9f3d-1203e7cc3925")
+	)
+	(junction
+		(at 160.02 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9c5cc8b-7471-4907-8fea-9a7cf577c4de")
 	)
 	(wire
 		(pts
@@ -1351,13 +1357,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 66.04) (xy 160.02 66.04)
+			(xy 158.75 72.39) (xy 165.1 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16df0d71-7bca-4938-9447-2170dfdfc86e")
+		(uuid "0ec8b148-752b-4475-afc3-6ef6329c95d8")
 	)
 	(wire
 		(pts
@@ -1378,6 +1384,26 @@
 			(type default)
 		)
 		(uuid "23a4a6af-e263-41e0-9b88-cb07ec12fde1")
+	)
+	(wire
+		(pts
+			(xy 199.39 124.46) (xy 205.74 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e91f85-ff55-459a-99ab-81a339cc7526")
+	)
+	(wire
+		(pts
+			(xy 160.02 64.77) (xy 160.02 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd7003d-2810-475c-97ae-d26c752d2f21")
 	)
 	(wire
 		(pts
@@ -1431,6 +1457,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 80.01) (xy 158.75 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "595517f0-1359-41f0-89c2-7a7ecc0af077")
+	)
+	(wire
+		(pts
 			(xy 132.08 115.57) (xy 133.35 115.57)
 		)
 		(stroke
@@ -1441,7 +1477,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 71.12) (xy 118.11 54.61)
+			(xy 118.11 69.85) (xy 118.11 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1451,7 +1487,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 71.12) (xy 165.1 71.12)
+			(xy 158.75 69.85) (xy 165.1 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1471,7 +1507,17 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 71.12) (xy 123.19 71.12)
+			(xy 111.76 74.93) (xy 111.76 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777377ac-a173-49dc-9038-27ea2e625718")
+	)
+	(wire
+		(pts
+			(xy 118.11 69.85) (xy 123.19 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1488,6 +1534,16 @@
 			(type default)
 		)
 		(uuid "9185ca97-34c9-446e-af1f-57d8b9aa1931")
+	)
+	(wire
+		(pts
+			(xy 201.93 127) (xy 199.39 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91cf9dd6-854e-4be2-b31f-7cf1123b128d")
 	)
 	(wire
 		(pts
@@ -1511,7 +1567,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 54.61) (xy 160.02 66.04)
+			(xy 160.02 54.61) (xy 160.02 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1528,6 +1584,16 @@
 			(type default)
 		)
 		(uuid "a0607649-b4c5-48c1-b9c3-9e81085b6feb")
+	)
+	(wire
+		(pts
+			(xy 201.93 121.92) (xy 199.39 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5d45235-c69a-4b72-8875-e04fd43bee31")
 	)
 	(wire
 		(pts
@@ -1551,16 +1617,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 123.19) (xy 138.43 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cabed7fc-c3ec-4dc0-8989-ed93e226b5fe")
-	)
-	(wire
-		(pts
 			(xy 111.76 62.23) (xy 111.76 63.5)
 		)
 		(stroke
@@ -1581,7 +1637,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 76.2) (xy 165.1 76.2)
+			(xy 158.75 74.93) (xy 165.1 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1591,17 +1647,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 73.66) (xy 165.1 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d140df39-9460-4964-9d20-84064b7bbb29")
-	)
-	(wire
-		(pts
-			(xy 111.76 73.66) (xy 111.76 76.2)
+			(xy 111.76 73.66) (xy 111.76 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1611,13 +1657,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 76.2) (xy 123.19 76.2)
+			(xy 111.76 74.93) (xy 123.19 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e1760bdb-d634-44fe-b98b-013d42302e19")
+	)
+	(wire
+		(pts
+			(xy 158.75 64.77) (xy 160.02 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e92aa29f-fda4-4e4f-b270-b720d39e8fbe")
 	)
 	(wire
 		(pts
@@ -1628,6 +1684,16 @@
 			(type default)
 		)
 		(uuid "e97c33cd-b36b-4617-9218-aee003fbf226")
+	)
+	(wire
+		(pts
+			(xy 132.08 123.19) (xy 138.43 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed6f2143-f485-4425-aecd-2e526311b9ba")
 	)
 	(wire
 		(pts
@@ -1680,7 +1746,7 @@
 		(uuid "17fd705a-3f7e-4800-aab5-fc7dedd5ccef")
 	)
 	(label "SD"
-		(at 161.29 73.66 0)
+		(at 161.29 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1710,7 +1776,7 @@
 		(uuid "3513eb17-4614-454a-946f-8b00bfee9a00")
 	)
 	(label "L{slash}R"
-		(at 119.38 76.2 0)
+		(at 119.38 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1720,7 +1786,7 @@
 		(uuid "3c9e5bd1-1c9e-472d-a26b-24554fcf3985")
 	)
 	(label "SCK"
-		(at 199.39 121.92 0)
+		(at 201.93 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1730,7 +1796,7 @@
 		(uuid "609a5704-a5b6-4fc6-874c-fa45486c7bac")
 	)
 	(label "WS"
-		(at 161.29 76.2 0)
+		(at 161.29 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1760,7 +1826,7 @@
 		(uuid "9aa56803-091f-44ee-9f79-547efc38cc92")
 	)
 	(label "SCK"
-		(at 161.29 71.12 0)
+		(at 160.02 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1790,7 +1856,7 @@
 		(uuid "ccdfcdbf-3988-4498-9365-8ccb4258caae")
 	)
 	(label "WS"
-		(at 199.39 127 0)
+		(at 201.93 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1800,7 +1866,7 @@
 		(uuid "d827a0ac-c8df-4ae4-bd29-307e4ba97d98")
 	)
 	(label "SD"
-		(at 199.39 124.46 0)
+		(at 200.66 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1820,7 +1886,7 @@
 		(uuid "e815ba1d-368b-46c0-be61-2e7c1376864c")
 	)
 	(label "EN"
-		(at 119.38 71.12 0)
+		(at 119.38 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1839,6 +1905,54 @@
 		)
 		(uuid "ff7305ab-db90-42da-99d6-7df254d1c07b")
 	)
+	(global_label "SD"
+		(shape input)
+		(at 205.74 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "334b51f0-1c2a-49f0-98f0-1bf89ba543f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.2047 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SD"
+		(shape input)
+		(at 138.43 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef28cb51-d613-49b3-855d-f32dea91b3a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.8947 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(hierarchical_label "L{slash}R"
 		(shape input)
 		(at 107.95 76.2 180)
@@ -1852,7 +1966,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape input)
-		(at 165.1 71.12 0)
+		(at 165.1 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1863,7 +1977,7 @@
 	)
 	(hierarchical_label "WS"
 		(shape input)
-		(at 165.1 76.2 0)
+		(at 165.1 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1874,7 +1988,7 @@
 	)
 	(hierarchical_label "SD"
 		(shape input)
-		(at 165.1 73.66 0)
+		(at 165.1 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3481,7 +3595,7 @@
 	)
 	(symbol
 		(lib_id "INMP441ACEZ-R7:INMP441ACEZ-R7")
-		(at 140.97 73.66 0)
+		(at 140.97 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3492,7 +3606,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4f3d40d-0b53-40be-abc3-dc398c8f73d3")
 		(property "Reference" "MK1"
-			(at 140.97 58.42 0)
+			(at 140.97 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3502,7 +3616,7 @@
 			)
 		)
 		(property "Value" "INMP441ACEZ-R7"
-			(at 140.97 60.96 0)
+			(at 140.97 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3512,7 +3626,7 @@
 			)
 		)
 		(property "Footprint" "kiC:MIC_INMP441ACEZ-R7"
-			(at 140.97 73.66 0)
+			(at 140.97 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3524,7 +3638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 73.66 0)
+			(at 140.97 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3535,7 +3649,7 @@
 			)
 		)
 		(property "Description" "60 Hz ~ 15 kHz Digital, I2S Microphone MEMS (Silicon) 1.62 V ~ 3.63 V Omnidirectional (-26dB ±3dB @ 94dB SPL) Solder Pads"
-			(at 140.97 73.66 0)
+			(at 140.97 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3547,7 +3661,7 @@
 			)
 		)
 		(property "MF" "TDK InvenSense"
-			(at 140.97 73.66 0)
+			(at 140.97 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3559,7 +3673,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.05 mm"
-			(at 140.97 73.66 0)
+			(at 140.97 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3571,7 +3685,7 @@
 			)
 		)
 		(property "Package" "LGA-9 TDK InvenSense"
-			(at 140.97 73.66 0)
+			(at 140.97 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3583,7 +3697,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 140.97 73.66 0)
+			(at 140.97 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3595,7 +3709,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/INMP441ACEZ-R7/TDK/view-part/?ref=eda"
-			(at 140.97 73.66 0)
+			(at 140.97 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3607,7 +3721,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 140.97 73.66 0)
+			(at 140.97 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3619,7 +3733,7 @@
 			)
 		)
 		(property "PARTREV" "1.1"
-			(at 140.97 73.66 0)
+			(at 140.97 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3631,7 +3745,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/INMP441ACEZ-R7/TDK/view-part/?ref=snap"
-			(at 140.97 73.66 0)
+			(at 140.97 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3643,7 +3757,7 @@
 			)
 		)
 		(property "MP" "INMP441ACEZ-R7"
-			(at 140.97 73.66 0)
+			(at 140.97 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3655,7 +3769,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=76082&manufacturer=TDK InvenSense&part_name=INMP441ACEZ-R7&search_term=inmp441"
-			(at 140.97 73.66 0)
+			(at 140.97 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3667,7 +3781,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 140.97 73.66 0)
+			(at 140.97 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3679,7 +3793,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TDK InvenSense"
-			(at 140.97 73.66 0)
+			(at 140.97 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
