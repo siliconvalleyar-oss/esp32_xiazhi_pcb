@@ -7180,22 +7180,14 @@
 			(at 0 -1.75 0)
 			(layer "B.Fab")
 			(uuid "ccbaad36-c664-4cd3-abc1-1335e633c7b2")
-			(effects
-								(font
-					(face "Arial")
-					(size 0.7 0.7)
-					(thickness 0.1)
+							(effects
+					(font
+						(face "Arial")
+						(size 0.7 0.7)
+						(thickness 0.1)
+					)
+					(justify mirror)
 				)
-				(justify mirror(font
-	(face "Arial")
-	(size 0.7 0.7)
-	(thickness 0.1)
-)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 0)
 			(unlocked yes)
