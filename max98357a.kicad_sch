@@ -2397,7 +2397,7 @@
 		)
 		(uuid "50d8be1a-11ab-4bce-bea9-1660bf04c099")
 	)
-	(label "VCC_MAC98357"
+	(label "VCC_MAX98357"
 		(at 148.59 86.36 0)
 		(effects
 			(font
@@ -2407,7 +2407,7 @@
 		)
 		(uuid "5267fd69-ddc8-456d-bace-9805e25f7f92")
 	)
-	(label "VCC_MAC98357"
+	(label "VCC_MAX98357"
 		(at 90.17 109.22 0)
 		(effects
 			(font

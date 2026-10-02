@@ -5082,6 +5082,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 68.58) (xy 297.18 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83c9c1cb-7ae2-4944-b16f-11b67ebecfbe")
+	)
+	(wire
+		(pts
 			(xy 359.41 49.53) (xy 353.06 49.53)
 		)
 		(stroke
@@ -5859,6 +5869,16 @@
 			(justify left bottom)
 		)
 		(uuid "07792339-33ee-43ae-a332-97512b605bcd")
+	)
+	(label "ID"
+		(at 302.26 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c97a876-2216-4f6b-8d80-df37f28c30b2")
 	)
 	(label "V+_USB"
 		(at 330.2 49.53 180)
