@@ -5362,8 +5362,11 @@
 			(layer "F.Fab")
 			(uuid "78f0ddd0-9e35-4cbc-941b-067e98b8d015")
 			(effects
-				(font
-					(face "Arial")
+				(font(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 					(size 0.7 0.7)
 					(thickness 0.1)
 				)
@@ -7147,8 +7150,11 @@
 			(hide yes)
 			(uuid "da17a97a-6878-4ba5-a430-59f5ad5bc369")
 			(effects
-				(font
-					(size 1.27 1.27)
+				(font(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 					(thickness 0.15)
 				)
 			)
@@ -22950,8 +22956,11 @@
 			(hide yes)
 			(uuid "afb902e8-b60f-430f-9b2a-ceb6226d5fbf")
 			(effects
-				(font
-					(size 1.27 1.27)
+				(font(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 				)
 				(justify mirror)
 			)
@@ -24832,8 +24841,11 @@
 			(layer "F.Fab")
 			(uuid "8c9afdf7-74df-43d5-8b1b-b5ce08c8e9c5")
 			(effects
-				(font
-					(face "Arial")
+				(font(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 					(size 0.7 0.7)
 					(thickness 0.1)
 				)
@@ -25093,8 +25105,11 @@
 			(hide yes)
 			(uuid "1b4379d6-6fdf-4d62-8ff9-5c355117e899")
 			(effects
-				(font
-					(size 1.27 1.27)
+				(font(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 				)
 			)
 		)
@@ -27683,8 +27698,11 @@
 			(hide yes)
 			(uuid "55d57a42-5dbe-4faf-b453-619763797d85")
 			(effects
-				(font
-					(size 1.27 1.27)
+				(font(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 				)
 			)
 		)
@@ -28850,8 +28868,11 @@
 			(hide yes)
 			(uuid "f4b40952-ba6b-4cbe-b2f0-f4192e3a279a")
 			(effects
-				(font
-					(size 1.27 1.27)
+				(font(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 				)
 			)
 		)
@@ -29487,8 +29508,11 @@
 			(hide yes)
 			(uuid "2bb57cee-a969-443a-8f61-082fd6cab675")
 			(effects
-				(font
-					(size 1.27 1.27)
+				(font(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 				)
 			)
 		)
@@ -32719,8 +32743,11 @@
 			(hide yes)
 			(uuid "cded881e-fe93-47dc-8e9d-b1eedbb9acef")
 			(effects
-				(font
-					(size 1.27 1.27)
+				(font(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 				)
 			)
 		)
@@ -34597,8 +34624,11 @@
 			(hide yes)
 			(uuid "55eac2c5-9005-4be7-a4a1-5ccd78cbfe2a")
 			(effects
-				(font
-					(size 1.27 1.27)
+				(font(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 				)
 			)
 		)
@@ -34853,8 +34883,11 @@
 			(hide yes)
 			(uuid "30b0575e-a60f-4603-b479-8a7cdea056e7")
 			(effects
-				(font
-					(size 1.27 1.27)
+				(font(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 					(thickness 0.15)
 				)
 			)
@@ -35918,8 +35951,11 @@
 			(hide yes)
 			(uuid "74ec7c17-3b6a-46eb-9938-b86f47d5d6d5")
 			(effects
-				(font
-					(size 1.27 1.27)
+				(font(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 				)
 			)
 		)
@@ -43845,8 +43881,11 @@
 			(hide yes)
 			(uuid "c1123ff4-9791-4261-badf-51e6a86361e9")
 			(effects
-				(font
-					(size 1.27 1.27)
+				(font(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 				)
 			)
 		)
@@ -44228,8 +44267,11 @@
 			(hide yes)
 			(uuid "935ece12-08fb-476f-a135-d0590869ac23")
 			(effects
-				(font
-					(size 1.27 1.27)
+				(font(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 					(thickness 0.15)
 				)
 			)
@@ -46878,8 +46920,11 @@
 			(hide yes)
 			(uuid "64ecec14-c1a4-43c1-bd85-30ebe058945d")
 			(effects
-				(font
-					(size 1.27 1.27)
+				(font(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 				)
 			)
 		)
@@ -48479,8 +48524,11 @@
 			(layer "F.Fab")
 			(uuid "f34f7ba3-cd5c-4083-85be-4d6f43a6207c")
 			(effects
-				(font
-					(face "Arial")
+				(font(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 					(size 0.7 0.7)
 					(thickness 0.1)
 				)
@@ -51629,8 +51677,11 @@
 			(layer "F.Fab")
 			(uuid "b1071c2f-91ab-4f4f-bd08-57c992d4eb8c")
 			(effects
-				(font
-					(size 0.8 0.8)
+				(font(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 					(thickness 0.15)
 				)
 			)
@@ -53672,8 +53723,11 @@
 			(uuid "5c809c88-efb7-444e-b454-41a3232218a9")
 			(effects
 				(font
-					
-					(face "Arial")
+					(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 					(size 0.7 0.7)
 					(thickness 0.1)
 				
@@ -53692,8 +53746,11 @@
 			(uuid "9b0527ae-60bf-4aa8-ba2b-dbefc08d7855")
 			(effects
 				(font
-					
-					(face "Arial")
+					(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 					(size 0.7 0.7)
 					(thickness 0.1)
 				
@@ -53711,8 +53768,11 @@
 			(layer "B.SilkS")
 			(uuid "2d903789-c2a9-4731-a430-0e02ea17106a")
 			(effects
-				(font
-					(size 1 1)
+				(font(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -53723,8 +53783,11 @@
 			(layer "B.Fab")
 			(uuid "ccbaad36-c664-4cd3-abc1-1335e633c7b2")
 			(effects
-				(font
-					(size 1 1)
+				(font(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -53825,8 +53888,11 @@
 			(layer "B.SilkS")
 			(uuid "6e39a29f-e596-441b-af43-9fb650d1ccd8")
 			(effects
-				(font
-					(size 1 1)
+				(font(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -53939,8 +54005,11 @@
 			(layer "B.SilkS")
 			(uuid "b056fc6b-e2f1-4eb9-975a-85242a946118")
 			(effects
-				(font
-					(size 1 1)
+				(font(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -54053,8 +54122,11 @@
 			(layer "B.SilkS")
 			(uuid "e1ac746d-90de-48bb-bc4a-6493c55e0191")
 			(effects
-				(font
-					(size 1 1)
+				(font(font
+	(face "Arial")
+	(size 0.7 0.7)
+	(thickness 0.1)
+)
 					(thickness 0.15)
 				)
 				(justify mirror)
