@@ -7150,10 +7150,12 @@
 			(uuid "da17a97a-6878-4ba5-a430-59f5ad5bc369")
 			(effects
 				(font
-	(face "Arial")
-	(size 0.7 0.7)
-	(thickness 0.1)
-)
+					(face "Arial")
+					(size 0.7 0.7)
+					(thickness 0.1)
+				)
+			)
+		)
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "B.Cu")
 		(uuid "d1670ea0-00e5-46ba-ac36-ec7323e4b176")
