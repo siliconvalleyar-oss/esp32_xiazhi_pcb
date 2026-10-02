@@ -7156,6 +7156,7 @@
 				)
 			)
 		)
+	)
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "B.Cu")
 		(uuid "d1670ea0-00e5-46ba-ac36-ec7323e4b176")
