@@ -867,6 +867,377 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "INMP441ACEZ-R7_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "MODULE_MIC"
+				(at 0.254 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "INMP441_MODULE"
+				(at 1.524 0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kiC:MODULE_OKY3139"
+				(at 0.254 -13.208 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "TDK InvenSense"
+				(at -20.066 4.572 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.05 mm"
+				(at 2.032 4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 16.002 10.414 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" ""
+				(at -0.254 -12.192 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "1.1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" ""
+				(at -16.764 -5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "INMP441ACEZ-R7"
+				(at -22.606 -6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Purchase-URL" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at -19.05 8.636 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "TDK InvenSense"
+				(at -23.876 -0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "INMP441ACEZ-R7_1_0_0"
+				(rectangle
+					(start -12.7 10.16)
+					(end 12.7 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "INMP441ACEZ-R7_1_1_0"
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "L/R"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "WS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "SD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 15.24 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:Jumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -1310,10 +1681,22 @@
 		(uuid "7b646fd6-1256-4955-9f3d-1203e7cc3925")
 	)
 	(junction
-		(at 160.02 64.77)
+		(at 132.08 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c9c5cc8b-7471-4907-8fea-9a7cf577c4de")
+		(uuid "9de7ff7b-5ff8-413b-b816-15546a6f5dc1")
+	)
+	(junction
+		(at 120.65 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5c74312-a388-489a-a759-df79d03ed82b")
+	)
+	(junction
+		(at 158.75 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6fc5ce1-c566-4b79-aa58-ddd8469caa3d")
 	)
 	(wire
 		(pts
@@ -1357,16 +1740,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 72.39) (xy 165.1 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ec8b148-752b-4475-afc3-6ef6329c95d8")
-	)
-	(wire
-		(pts
 			(xy 132.08 125.73) (xy 138.43 125.73)
 		)
 		(stroke
@@ -1387,7 +1760,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 124.46) (xy 205.74 124.46)
+			(xy 199.39 119.38) (xy 205.74 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1397,7 +1770,27 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 64.77) (xy 160.02 66.04)
+			(xy 120.65 54.61) (xy 158.75 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34781dce-9ea3-496f-a41a-87dc8457a692")
+	)
+	(wire
+		(pts
+			(xy 158.75 124.46) (xy 163.83 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e6f8b4-d1ff-422e-9b38-a236cffaa240")
+	)
+	(wire
+		(pts
+			(xy 158.75 64.77) (xy 158.75 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1414,6 +1807,16 @@
 			(type default)
 		)
 		(uuid "41f8cde2-5084-4008-8185-79db2645b037")
+	)
+	(wire
+		(pts
+			(xy 120.65 49.53) (xy 120.65 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44befd98-ce86-4b0b-8daf-2096e0265aba")
 	)
 	(wire
 		(pts
@@ -1437,7 +1840,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 54.61) (xy 160.02 54.61)
+			(xy 118.11 54.61) (xy 120.65 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1477,16 +1880,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 69.85) (xy 118.11 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e83cfcf-7989-45ef-a75c-e867e082845c")
-	)
-	(wire
-		(pts
 			(xy 158.75 69.85) (xy 165.1 69.85)
 		)
 		(stroke
@@ -1504,6 +1897,16 @@
 			(type default)
 		)
 		(uuid "640e79fe-75b2-44d2-a7a5-d748d0ec7c9d")
+	)
+	(wire
+		(pts
+			(xy 132.08 104.14) (xy 132.08 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7580ea32-cd1c-4769-8286-d9611c686322")
 	)
 	(wire
 		(pts
@@ -1537,13 +1940,13 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 127) (xy 199.39 127)
+			(xy 123.19 49.53) (xy 120.65 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91cf9dd6-854e-4be2-b31f-7cf1123b128d")
+		(uuid "9776c227-6cff-4ba2-9023-0d44ff9a584c")
 	)
 	(wire
 		(pts
@@ -1557,6 +1960,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 99.06) (xy 180.34 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cf441a7-77ff-4d57-be31-f25a415ae0fb")
+	)
+	(wire
+		(pts
 			(xy 111.76 90.17) (xy 111.76 88.9)
 		)
 		(stroke
@@ -1567,13 +1980,23 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 54.61) (xy 160.02 64.77)
+			(xy 158.75 54.61) (xy 158.75 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9fcee889-63d9-4c3a-b32b-dcb3afef92ae")
+	)
+	(wire
+		(pts
+			(xy 180.34 99.06) (xy 180.34 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a057e378-597d-495c-880c-abbf1ba02ff1")
 	)
 	(wire
 		(pts
@@ -1587,13 +2010,13 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 121.92) (xy 199.39 121.92)
+			(xy 158.75 72.39) (xy 165.1 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5d45235-c69a-4b72-8875-e04fd43bee31")
+		(uuid "ae0a3b3d-e7a3-4ed2-99ad-97791b163abc")
 	)
 	(wire
 		(pts
@@ -1607,13 +2030,23 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 66.04) (xy 172.72 66.04)
+			(xy 158.75 66.04) (xy 172.72 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ca69253a-4914-4c77-ba4b-a667096e8100")
+	)
+	(wire
+		(pts
+			(xy 118.11 54.61) (xy 118.11 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd0eddc4-6cea-4c6c-b7a4-c981940a3ea3")
 	)
 	(wire
 		(pts
@@ -1667,16 +2100,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 64.77) (xy 160.02 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e92aa29f-fda4-4e4f-b270-b720d39e8fbe")
-	)
-	(wire
-		(pts
 			(xy 132.08 120.65) (xy 138.43 120.65)
 		)
 		(stroke
@@ -1684,6 +2107,16 @@
 			(type default)
 		)
 		(uuid "e97c33cd-b36b-4617-9218-aee003fbf226")
+	)
+	(wire
+		(pts
+			(xy 134.62 104.14) (xy 132.08 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb3e1113-9c98-42de-b0a0-bedc4cd8348b")
 	)
 	(wire
 		(pts
@@ -1706,7 +2139,7 @@
 		(uuid "f135691f-09f5-4853-9747-b6c5e3c015d1")
 	)
 	(label "SCK"
-		(at 134.62 120.65 0)
+		(at 138.43 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1716,7 +2149,7 @@
 		(uuid "0d673341-1e93-4e51-84ab-ac2a3a97c55b")
 	)
 	(label "SD"
-		(at 134.62 123.19 0)
+		(at 138.43 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1726,7 +2159,7 @@
 		(uuid "1497291b-77e0-47e1-aebd-922e48e5b6fd")
 	)
 	(label "L{slash}R"
-		(at 158.75 127 0)
+		(at 160.02 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1766,7 +2199,7 @@
 		(uuid "30c361a2-cb11-42bc-a455-017b3a28db0c")
 	)
 	(label "VDD_INMP441"
-		(at 199.39 116.84 0)
+		(at 180.34 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1786,7 +2219,7 @@
 		(uuid "3c9e5bd1-1c9e-472d-a26b-24554fcf3985")
 	)
 	(label "SCK"
-		(at 201.93 121.92 0)
+		(at 160.02 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1804,16 +2237,6 @@
 			(justify left bottom)
 		)
 		(uuid "6fa0b126-cc40-4523-a1db-aabd55a0a9e3")
-	)
-	(label "EN"
-		(at 158.75 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "76557040-b886-48de-8138-a8152a323fb4")
 	)
 	(label "EN"
 		(at 92.71 120.65 0)
@@ -1846,7 +2269,7 @@
 		(uuid "b425e3f1-b4b0-4d96-8a81-50d66dc45132")
 	)
 	(label "VDD_INMP441"
-		(at 139.7 54.61 0)
+		(at 138.43 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1856,7 +2279,7 @@
 		(uuid "ccdfcdbf-3988-4498-9365-8ccb4258caae")
 	)
 	(label "WS"
-		(at 201.93 127 0)
+		(at 158.75 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1866,7 +2289,7 @@
 		(uuid "d827a0ac-c8df-4ae4-bd29-307e4ba97d98")
 	)
 	(label "SD"
-		(at 200.66 124.46 0)
+		(at 205.74 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1876,7 +2299,7 @@
 		(uuid "e753d646-d568-4d81-8261-8983722842c7")
 	)
 	(label "WS"
-		(at 134.62 125.73 0)
+		(at 138.43 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1905,9 +2328,9 @@
 		)
 		(uuid "ff7305ab-db90-42da-99d6-7df254d1c07b")
 	)
-	(global_label "SD"
+	(global_label "VDD_IMP441"
 		(shape input)
-		(at 205.74 124.46 0)
+		(at 123.19 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1915,9 +2338,9 @@
 			)
 			(justify left)
 		)
-		(uuid "334b51f0-1c2a-49f0-98f0-1bf89ba543f8")
+		(uuid "7031adba-b5d0-4f51-a0e9-076505971380")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.2047 124.46 0)
+			(at 137.7261 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1929,9 +2352,9 @@
 			)
 		)
 	)
-	(global_label "SD"
+	(global_label "VDD_IMP441"
 		(shape input)
-		(at 138.43 123.19 0)
+		(at 181.61 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1939,9 +2362,9 @@
 			)
 			(justify left)
 		)
-		(uuid "ef28cb51-d613-49b3-855d-f32dea91b3a0")
+		(uuid "87bd63ba-b7a9-47ee-8ceb-6f415d054fd7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.8947 123.19 0)
+			(at 196.1461 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1953,16 +2376,29 @@
 			)
 		)
 	)
-	(hierarchical_label "L{slash}R"
+	(global_label "VDD_IMP441"
 		(shape input)
-		(at 107.95 76.2 180)
+		(at 134.62 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "9dc31dd8-3703-4ae0-9b33-2aba8fdf7886")
+		(uuid "c694750e-047d-42df-8efb-e60440d8bf08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.1561 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "SCK"
 		(shape input)
@@ -2477,7 +2913,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 199.39 132.08 0)
+		(at 181.61 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2487,7 +2923,7 @@
 		(dnp no)
 		(uuid "368bc3cb-8b92-431e-81e3-768012fc06ea")
 		(property "Reference" "#PWR0106"
-			(at 199.39 138.43 0)
+			(at 181.61 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2498,7 +2934,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 197.866 135.128 0)
+			(at 180.086 142.748 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2508,7 +2944,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 132.08 0)
+			(at 181.61 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2519,7 +2955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 132.08 0)
+			(at 181.61 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2530,7 +2966,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 132.08 0)
+			(at 181.61 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2585,7 +3021,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2869,6 +3305,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 118.11 64.77 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d0cf577-5de0-4b8a-b311-59d3cbc93859")
+		(property "Reference" "JP4"
+			(at 112.268 61.976 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 100.838 65.278 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 118.11 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 118.11 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "866a1e4b-ccb9-49dc-8aa3-915355693396")
+		)
+		(pin "2"
+			(uuid "15e8edb9-5cf6-414b-a6ae-d270edded895")
+		)
+		(instances
+			(project "esp32_xiaozhi"
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c/d2e61921-5974-44e2-9221-de7c05f17e70"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 132.08 130.81 0)
 		(unit 1)
@@ -3107,6 +3624,7 @@
 		)
 	)
 	(symbol
+		(lib_name "INMP441ACEZ-R7_1")
 		(lib_id "INMP441ACEZ-R7:INMP441ACEZ-R7")
 		(at 181.61 124.46 0)
 		(unit 1)
@@ -3118,8 +3636,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdddb18c-7bf2-458a-a65a-1bb6653a4784")
-		(property "Reference" "MK2"
-			(at 181.61 109.22 0)
+		(property "Reference" "MODULE_MIC1"
+			(at 181.864 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3128,8 +3646,8 @@
 				)
 			)
 		)
-		(property "Value" "INMP441ACEZ-R7"
-			(at 181.61 111.76 0)
+		(property "Value" "INMP441_MODULE"
+			(at 183.134 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3139,7 +3657,7 @@
 			)
 		)
 		(property "Footprint" "kiC:MODULE_OKY3139"
-			(at 181.61 124.46 0)
+			(at 181.864 137.668 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3161,7 +3679,7 @@
 				)
 			)
 		)
-		(property "Description" "60 Hz ~ 15 kHz Digital, I2S Microphone MEMS (Silicon) 1.62 V ~ 3.63 V Omnidirectional (-26dB ±3dB @ 94dB SPL) Solder Pads"
+		(property "Description" ""
 			(at 181.61 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3174,7 +3692,7 @@
 			)
 		)
 		(property "MF" "TDK InvenSense"
-			(at 181.61 124.46 0)
+			(at 161.544 119.888 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3186,7 +3704,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.05 mm"
-			(at 181.61 124.46 0)
+			(at 183.642 119.634 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3197,7 +3715,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "LGA-9 TDK InvenSense"
+		(property "Package" ""
 			(at 181.61 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3210,7 +3728,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 181.61 124.46 0)
+			(at 197.612 114.046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3221,8 +3739,8 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/INMP441ACEZ-R7/TDK/view-part/?ref=eda"
-			(at 181.61 124.46 0)
+		(property "Check_prices" ""
+			(at 181.356 136.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3234,7 +3752,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 181.61 124.46 0)
+			(at 181.61 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3257,8 +3775,8 @@
 				(justify bottom)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/INMP441ACEZ-R7/TDK/view-part/?ref=snap"
-			(at 181.61 124.46 0)
+		(property "SnapEDA_Link" ""
+			(at 164.846 130.302 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3270,7 +3788,7 @@
 			)
 		)
 		(property "MP" "INMP441ACEZ-R7"
-			(at 181.61 124.46 0)
+			(at 159.004 131.064 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3281,7 +3799,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=76082&manufacturer=TDK InvenSense&part_name=INMP441ACEZ-R7&search_term=inmp441"
+		(property "Purchase-URL" ""
 			(at 181.61 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3294,7 +3812,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 181.61 124.46 0)
+			(at 162.56 115.824 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3306,7 +3824,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TDK InvenSense"
-			(at 181.61 124.46 0)
+			(at 157.734 124.968 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3323,16 +3841,13 @@
 		(pin "9"
 			(uuid "7a235a7f-d69b-451b-a8bc-724ccc94ffff")
 		)
-		(pin "8"
-			(uuid "bffff075-7013-4b04-8fc5-d346ba44eced")
-		)
 		(pin "5"
 			(uuid "1576882a-77d9-4095-ba71-bc2222c8cc68")
 		)
 		(pin "6"
 			(uuid "2e1cb5d6-08a4-4a62-9a9b-4382b3a0926c")
 		)
-		(pin "7"
+		(pin "6"
 			(uuid "6a85c521-85f2-4eae-9323-08485067b50b")
 		)
 		(pin "3"
@@ -3347,7 +3862,7 @@
 		(instances
 			(project "esp32_xiaozhi"
 				(path "/cae338e8-f342-43cb-b99a-a0486629133c/d2e61921-5974-44e2-9221-de7c05f17e70"
-					(reference "MK2")
+					(reference "MODULE_MIC1")
 					(unit 1)
 				)
 			)
@@ -3387,7 +3902,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
 			(at 177.8 59.69 0)
 			(hide yes)
 			(show_name no)

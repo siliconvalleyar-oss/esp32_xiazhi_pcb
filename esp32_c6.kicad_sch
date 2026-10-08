@@ -5898,6 +5898,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 166.37) (xy 46.99 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09b05e02-a71f-4e27-81b5-b2d8974610f1")
+	)
+	(wire
+		(pts
 			(xy 228.6 217.17) (xy 232.41 217.17)
 		)
 		(stroke
@@ -6638,7 +6648,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 199.39) (xy 354.33 203.2)
+			(xy 354.33 198.12) (xy 354.33 203.2)
 		)
 		(stroke
 			(width 0)
@@ -9708,7 +9718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
 			(at 85.09 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -10607,7 +10617,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 354.33 199.39 0)
+		(at 354.33 198.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10617,7 +10627,7 @@
 		(dnp no)
 		(uuid "37cef54b-924f-4143-b297-fc9fac4d3038")
 		(property "Reference" "#PWR029"
-			(at 354.33 203.2 0)
+			(at 354.33 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10628,7 +10638,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 355.6 195.58 0)
+			(at 355.6 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10638,7 +10648,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 354.33 199.39 0)
+			(at 354.33 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10649,7 +10659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 354.33 199.39 0)
+			(at 354.33 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10660,7 +10670,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 354.33 199.39 0)
+			(at 354.33 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11503,7 +11513,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 161.29 0)
+		(at 46.99 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11513,7 +11523,7 @@
 		(dnp no)
 		(uuid "5c857c75-8b73-4db1-9dc4-422025d21363")
 		(property "Reference" "#PWR025"
-			(at 46.99 167.64 0)
+			(at 46.99 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11524,7 +11534,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.546 162.814 0)
+			(at 50.546 167.894 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11534,7 +11544,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 161.29 0)
+			(at 46.99 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11545,7 +11555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 161.29 0)
+			(at 46.99 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11556,7 +11566,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 161.29 0)
+			(at 46.99 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13833,7 +13843,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
 			(at 125.73 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -15281,7 +15291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 181.9148 48.26 0)
 			(hide yes)
 			(show_name no)

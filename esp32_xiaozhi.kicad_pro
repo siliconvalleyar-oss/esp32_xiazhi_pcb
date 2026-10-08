@@ -540,10 +540,10 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.382,
+        "track_width": 0.3,
         "tuning_profile": "",
         "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -857,7 +857,7 @@
         "uuid": "cae338e8-f342-43cb-b99a-a0486629133c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U10-13,C8,C52-56,D5,JP4,JP8-9,R29,R68-73,J23,#PWR100,#PWR142-160",
     "variants": []
   },
   "sheets": [
@@ -896,6 +896,10 @@
     [
       "48c69a19-5dbf-4d8f-8d4c-5f90e1f766ed",
       "micro_sd"
+    ],
+    [
+      "76038c7a-bf86-4800-b34a-9b8e26eecb99",
+      "board"
     ],
     [
       "2567bb9e-06b8-4d2c-80a7-ee2453b67a65",

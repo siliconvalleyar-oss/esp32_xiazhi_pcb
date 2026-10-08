@@ -1907,12 +1907,6 @@
 		(color 0 0 0 0)
 		(uuid "e426cf1d-b098-425f-a852-5af8dd8dcba2")
 	)
-	(junction
-		(at 102.87 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe5083b4-f0e3-4d35-93f3-ab9a35bb9678")
-	)
 	(no_connect
 		(at 375.92 220.98)
 		(uuid "98d73859-8fac-4178-bce6-5b59b54460be")
@@ -2049,16 +2043,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 215.9) (xy 102.87 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27a776ee-0fe7-43f6-8277-c48d999a98fd")
-	)
-	(wire
-		(pts
 			(xy 302.26 201.93) (xy 307.34 201.93)
 		)
 		(stroke
@@ -2129,16 +2113,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 210.82) (xy 102.87 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "387b0058-91a1-4848-bd2e-576c66c24bcd")
-	)
-	(wire
-		(pts
 			(xy 266.7 130.81) (xy 273.05 130.81)
 		)
 		(stroke
@@ -2186,16 +2160,6 @@
 			(type default)
 		)
 		(uuid "500e7532-d0aa-4104-9332-834e292d8ea9")
-	)
-	(wire
-		(pts
-			(xy 102.87 195.58) (xy 102.87 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5393157d-4e24-49ab-b26e-d27eb9ee77fe")
 	)
 	(wire
 		(pts
@@ -2469,7 +2433,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 215.9) (xy 102.87 215.9)
+			(xy 92.71 215.9) (xy 113.03 215.9)
 		)
 		(stroke
 			(width 0)
@@ -2793,28 +2757,6 @@
 			(justify left)
 		)
 		(uuid "ac7edf4c-80ee-4472-94c7-454893da1d96")
-	)
-	(hierarchical_label "led5"
-		(shape input)
-		(at 102.87 185.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f3a17bf1-d1e2-445f-abef-70a9e68b1885")
-	)
-	(hierarchical_label "led3"
-		(shape input)
-		(at 82.55 185.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f86a4ad7-a2dd-4c6c-8eba-0d3c3335ba94")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3437,99 +3379,6 @@
 			(project "esp32_xiaozhi"
 				(path "/cae338e8-f342-43cb-b99a-a0486629133c/7256592f-47bf-4ef9-8c00-e0996fdaf86a"
 					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 102.87 199.39 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b35680d-fbfc-43f1-9f20-72ba28d96bb4")
-		(property "Reference" "D5"
-			(at 106.68 199.7074 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 106.68 202.2474 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
-			(at 102.87 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 102.87 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 102.87 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2e3a1dcc-aca2-4032-a075-2a53ff951fba")
-		)
-		(pin "2"
-			(uuid "fd1d859e-e7d9-4140-bb84-267236ec13a7")
-		)
-		(instances
-			(project "esp32_xiaozhi"
-				(path "/cae338e8-f342-43cb-b99a-a0486629133c/7256592f-47bf-4ef9-8c00-e0996fdaf86a"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5988,87 +5837,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 102.87 207.01 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac083e6d-18f5-4702-89a2-2583f8e18861")
-		(property "Reference" "R29"
-			(at 100.33 208.2801 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2k2"
-			(at 100.33 205.7401 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 104.648 207.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 102.87 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "986b1e9c-819e-4b20-aece-03d74a8b3db1")
-		)
-		(pin "2"
-			(uuid "c48c988c-a7e8-4cec-ae70-658fdfb1754a")
-		)
-		(instances
-			(project "esp32_xiaozhi"
-				(path "/cae338e8-f342-43cb-b99a-a0486629133c/7256592f-47bf-4ef9-8c00-e0996fdaf86a"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 234.95 118.11 0)
 		(unit 1)
 		(body_style 1)
@@ -6554,6 +6322,84 @@
 			(project "esp32_xiaozhi"
 				(path "/cae338e8-f342-43cb-b99a-a0486629133c/7256592f-47bf-4ef9-8c00-e0996fdaf86a"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 82.55 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfd33558-36c0-4dc3-93b7-1d822dd1844f")
+		(property "Reference" "#PWR0142"
+			(at 82.55 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 82.55 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 82.55 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7591e768-93ca-490b-a159-c2a2c3fc7c90")
+		)
+		(instances
+			(project "esp32_xiaozhi"
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c/7256592f-47bf-4ef9-8c00-e0996fdaf86a"
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)

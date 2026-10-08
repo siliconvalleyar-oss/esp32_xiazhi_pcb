@@ -3310,7 +3310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kiC:LCD_OLED_128X64_1.3_I2C"
+		(property "Footprint" "kiC:SSD1306_No_Mounting_whitout_Holes"
 			(at 76.454 107.95 0)
 			(hide yes)
 			(show_name no)
