@@ -245,6 +245,10 @@
           "drill": 0.508
         },
         {
+          "diameter": 0.8,
+          "drill": 0.4
+        },
+        {
           "diameter": 1.0,
           "drill": 0.75
         },
@@ -263,6 +267,40 @@
         {
           "diameter": 3.0,
           "drill": 1.5
+        },
+        {
+          "diameter": 0.508,
+          "drill": 0.3,
+          "layers": [
+            "F.Cu",
+            "In1.Cu"
+          ]
+        },
+        {
+          "diameter": 0.508,
+          "drill": 0.3,
+          "layers": [
+            "In1.Cu",
+            "In2.Cu"
+          ]
+        },
+        {
+          "diameter": 0.508,
+          "drill": 0.3,
+          "layers": [
+            "In2.Cu",
+            "B.Cu"
+          ]
+        },
+        {
+          "diameter": 0.508,
+          "drill": 0.3,
+          "layers": [
+            "F.Cu",
+            "In1.Cu",
+            "In2.Cu",
+            "B.Cu"
+          ]
         }
       ],
       "zones_allow_external_fillets": false
@@ -671,6 +709,24 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GND",
+        "pcb_color": "rgba(0, 128, 0, 0.300)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 128, 0, 0.300)",
+        "track_width": 1.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 8
       }
     ],
     "meta": {
@@ -726,6 +782,18 @@
       {
         "netclass": "rf",
         "pattern": "RF"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND_*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "*_GND"
       }
     ]
   },
