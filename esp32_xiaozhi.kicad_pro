@@ -734,7 +734,7 @@
       "idf": "",
       "netlist": "",
       "plot": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "freerouting.dsn",
       "vrml": ""
     },
     "page_layout_descr_file": ""
