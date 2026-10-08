@@ -3310,7 +3310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kiC:SSD1306_No_Mounting_whitout_Holes"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 76.454 107.95 0)
 			(hide yes)
 			(show_name no)
