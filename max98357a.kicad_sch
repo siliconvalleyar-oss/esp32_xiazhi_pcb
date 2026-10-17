@@ -2047,7 +2047,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 80.01) (xy 76.2 82.55)
+			(xy 76.2 80.01) (xy 76.2 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2484,6 +2484,16 @@
 			(type default)
 		)
 		(uuid "a37fe906-b413-49f0-a2ef-c0097e629154")
+	)
+	(wire
+		(pts
+			(xy 76.2 88.9) (xy 76.2 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa12f3c5-a5f5-4350-890f-6dd38c9487a7")
 	)
 	(wire
 		(pts
@@ -3630,7 +3640,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 86.36 0)
+		(at 76.2 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3641,7 +3651,7 @@
 		(fields_autoplaced yes)
 		(uuid "369a9735-5707-47ea-9fa2-6892c1834e8c")
 		(property "Reference" "R66"
-			(at 78.74 85.0899 0)
+			(at 78.74 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3652,7 +3662,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 78.74 87.6299 0)
+			(at 78.74 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3663,7 +3673,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 74.422 86.36 90)
+			(at 74.422 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3674,7 +3684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 86.36 0)
+			(at 76.2 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3685,7 +3695,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 86.36 0)
+			(at 76.2 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

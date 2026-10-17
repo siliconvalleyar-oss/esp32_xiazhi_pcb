@@ -1657,22 +1657,16 @@
 		)
 	)
 	(junction
-		(at 111.76 76.2)
+		(at 177.8 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "16da4506-1e0e-4423-b41e-d39d532976f6")
+		(uuid "12ef22f9-a7fe-474f-8ef8-873dab497f8e")
 	)
 	(junction
 		(at 111.76 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19227691-6f81-4d61-92fb-a056713fcb16")
-	)
-	(junction
-		(at 172.72 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e833497-a8be-4b0d-a7e0-f675b2def8f8")
 	)
 	(junction
 		(at 214.63 87.63)
@@ -1687,16 +1681,16 @@
 		(uuid "9de7ff7b-5ff8-413b-b816-15546a6f5dc1")
 	)
 	(junction
+		(at 158.75 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf4d7d27-4242-47e0-860c-ffd24e3c1f35")
+	)
+	(junction
 		(at 120.65 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5c74312-a388-489a-a759-df79d03ed82b")
-	)
-	(junction
-		(at 158.75 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6fc5ce1-c566-4b79-aa58-ddd8469caa3d")
 	)
 	(wire
 		(pts
@@ -1710,33 +1704,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 76.2) (xy 111.76 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08ce7a56-9cea-48c4-a426-c9377c989dcd")
-	)
-	(wire
-		(pts
-			(xy 111.76 78.74) (xy 111.76 76.2)
+			(xy 111.76 74.93) (xy 111.76 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0bfaebd3-83e3-463f-bee7-8c2790f6c5c1")
-	)
-	(wire
-		(pts
-			(xy 177.8 66.04) (xy 172.72 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d3cda0e-cc83-4dbf-b7d1-ff4407439d22")
 	)
 	(wire
 		(pts
@@ -1787,16 +1761,6 @@
 			(type default)
 		)
 		(uuid "37e6f8b4-d1ff-422e-9b38-a236cffaa240")
-	)
-	(wire
-		(pts
-			(xy 158.75 64.77) (xy 158.75 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bd7003d-2810-475c-97ae-d26c752d2f21")
 	)
 	(wire
 		(pts
@@ -1890,16 +1854,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 73.66) (xy 172.72 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "640e79fe-75b2-44d2-a7a5-d748d0ec7c9d")
-	)
-	(wire
-		(pts
 			(xy 132.08 104.14) (xy 132.08 115.57)
 		)
 		(stroke
@@ -1907,16 +1861,6 @@
 			(type default)
 		)
 		(uuid "7580ea32-cd1c-4769-8286-d9611c686322")
-	)
-	(wire
-		(pts
-			(xy 111.76 74.93) (xy 111.76 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "777377ac-a173-49dc-9038-27ea2e625718")
 	)
 	(wire
 		(pts
@@ -2020,7 +1964,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 63.5) (xy 177.8 66.04)
+			(xy 177.8 63.5) (xy 177.8 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2030,7 +1974,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 66.04) (xy 172.72 66.04)
+			(xy 158.75 64.77) (xy 177.8 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2047,6 +1991,16 @@
 			(type default)
 		)
 		(uuid "cd0eddc4-6cea-4c6c-b7a4-c981940a3ea3")
+	)
+	(wire
+		(pts
+			(xy 177.8 64.77) (xy 177.8 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd587b95-6968-435b-b1d3-d21400085f5e")
 	)
 	(wire
 		(pts
@@ -2137,6 +2091,16 @@
 			(type default)
 		)
 		(uuid "f135691f-09f5-4853-9747-b6c5e3c015d1")
+	)
+	(wire
+		(pts
+			(xy 177.8 73.66) (xy 177.8 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed07ef8-b48b-4f82-8845-539888015ef5")
 	)
 	(label "SCK"
 		(at 138.43 120.65 0)
@@ -2619,7 +2583,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiC:MIC_INMP441ACEZ-R7"
+		(property "Footprint" "kiC:INMP441ACEZ-R7"
 			(at 114.3 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3010,8 +2974,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Jumper_2_Open"
-			(at 94.488 84.328 90)
+		(property "Value" "JP_R"
+			(at 112.522 84.074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3071,7 +3035,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 77.47 0)
+		(at 177.8 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3082,7 +3046,7 @@
 		(fields_autoplaced yes)
 		(uuid "6800a372-e66b-4420-9aeb-be80e57263c9")
 		(property "Reference" "#PWR040"
-			(at 172.72 83.82 0)
+			(at 177.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3093,7 +3057,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 82.55 0)
+			(at 177.8 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3103,7 +3067,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 77.47 0)
+			(at 177.8 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3114,7 +3078,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 77.47 0)
+			(at 177.8 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3125,7 +3089,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 77.47 0)
+			(at 177.8 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3326,8 +3290,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Jumper_2_Open"
-			(at 100.838 65.278 90)
+		(property "Value" "JP_EN"
+			(at 116.84 42.418 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3464,7 +3428,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 172.72 69.85 180)
+		(at 177.8 69.85 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3474,7 +3438,7 @@
 		(dnp no)
 		(uuid "948f026f-d294-45d0-bb0a-2a0200e951bd")
 		(property "Reference" "C19"
-			(at 179.832 71.374 0)
+			(at 184.912 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3485,7 +3449,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 181.61 68.834 0)
+			(at 186.69 68.834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3496,7 +3460,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 171.7548 66.04 0)
+			(at 176.8348 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3507,7 +3471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 69.85 0)
+			(at 177.8 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3518,7 +3482,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 69.85 0)
+			(at 177.8 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4049,8 +4013,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Jumper_2_Open"
-			(at 94.488 69.088 90)
+		(property "Value" "JP_L"
+			(at 105.41 69.088 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4140,7 +4104,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiC:MIC_INMP441ACEZ-R7"
+		(property "Footprint" "kiC:INMP441ACEZ-R7"
 			(at 140.97 72.39 0)
 			(hide yes)
 			(show_name no)

@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 1.8,
+          "width": 1.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -195,6 +195,7 @@
       ],
       "track_widths": [
         0.0,
+        0.3,
         0.382,
         0.508,
         0.762,
@@ -241,6 +242,22 @@
           "drill": 0.3
         },
         {
+          "diameter": 0.508,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.508,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.508,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.508,
+          "drill": 0.3
+        },
+        {
           "diameter": 0.762,
           "drill": 0.508
         },
@@ -267,40 +284,6 @@
         {
           "diameter": 3.0,
           "drill": 1.5
-        },
-        {
-          "diameter": 0.508,
-          "drill": 0.3,
-          "layers": [
-            "F.Cu",
-            "In1.Cu"
-          ]
-        },
-        {
-          "diameter": 0.508,
-          "drill": 0.3,
-          "layers": [
-            "In1.Cu",
-            "In2.Cu"
-          ]
-        },
-        {
-          "diameter": 0.508,
-          "drill": 0.3,
-          "layers": [
-            "In2.Cu",
-            "B.Cu"
-          ]
-        },
-        {
-          "diameter": 0.508,
-          "drill": 0.3,
-          "layers": [
-            "F.Cu",
-            "In1.Cu",
-            "In2.Cu",
-            "B.Cu"
-          ]
         }
       ],
       "zones_allow_external_fillets": false
@@ -586,6 +569,24 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GND",
+        "pcb_color": "rgba(0, 128, 0, 0.302)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 128, 0, 0.302)",
+        "track_width": 1.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 8
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -709,24 +710,6 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "GND",
-        "pcb_color": "rgba(0, 128, 0, 0.300)",
-        "priority": 7,
-        "schematic_color": "rgba(0, 128, 0, 0.300)",
-        "track_width": 1.5,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 8
       }
     ],
     "meta": {
@@ -925,7 +908,7 @@
         "uuid": "cae338e8-f342-43cb-b99a-a0486629133c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C38,#PWR88-90,#PWR97-98,U7",
     "variants": []
   },
   "sheets": [
