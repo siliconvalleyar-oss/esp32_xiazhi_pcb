@@ -195,6 +195,7 @@
       ],
       "track_widths": [
         0.0,
+        0.2,
         0.3,
         0.382,
         0.508,
@@ -561,7 +562,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.3,
@@ -908,7 +909,7 @@
         "uuid": "cae338e8-f342-43cb-b99a-a0486629133c"
       }
     ],
-    "used_designators": "C38,#PWR88-90,#PWR97-98,U7",
+    "used_designators": "U10-11,#PWR26,#PWR29,#PWR97,#PWR99,#PWR101",
     "variants": []
   },
   "sheets": [
