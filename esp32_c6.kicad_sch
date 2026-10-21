@@ -8738,9 +8738,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b1df6d3-7298-4e94-aa64-fcc2d7145138")
@@ -9880,7 +9880,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "15pf"
 			(at 163.195 198.755 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10614,9 +10614,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "407209f4-5625-4118-8889-192e4bebd8d3")
@@ -11111,7 +11111,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "27"
 			(at 59.69 51.435 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11601,7 +11601,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "27"
 			(at 59.182 59.182 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11690,7 +11690,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2k2"
 			(at 311.785 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12272,7 +12272,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "15pf"
 			(at 198.755 198.755 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12766,9 +12766,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "9270a7df-236a-4472-933e-0313793afa12")
 		(property "Reference" "R37"
@@ -13174,7 +13174,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nf"
+		(property "Value" "1uf"
 			(at 197.358 51.308 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13706,9 +13706,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba4937e9-fea4-4e0c-8a8e-1f2f69845e18")
@@ -13754,7 +13754,7 @@
 				)
 			)
 		)
-		(property "Description" "Two pin crystal"
+		(property "Description" "Two pin crystal 6MHZ"
 			(at 175.26 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -14336,9 +14336,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "d0169744-a322-4f3a-bfa9-ac9abe3cb901")
 		(property "Reference" "R26"
@@ -14766,7 +14766,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2k2"
 			(at 309.88 223.52 90)
 			(show_name no)
 			(do_not_autoplace no)

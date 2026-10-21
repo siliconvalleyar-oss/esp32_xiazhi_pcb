@@ -3263,7 +3263,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch push  smd"
 			(at 151.13 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3375,7 +3375,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1d138318-d6c0-41e0-89d1-937af7b92096")
 		(property "Reference" "D4"
 			(at 96.52 199.7074 90)
@@ -3388,8 +3387,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 96.52 202.2474 90)
+		(property "Value" "GREEN"
+			(at 96.52 189.992 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3421,7 +3420,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode green"
 			(at 92.71 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -3826,7 +3825,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch push  smd"
 			(at 201.93 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4292,7 +4291,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "WHITE"
 			(at 109.22 202.2474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4325,7 +4324,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode white"
 			(at 105.41 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -4610,7 +4609,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "69bfee7a-fb42-440f-9b79-abaa84b82e32")
 		(property "Reference" "#PWR0117"
 			(at 243.84 144.78 0)
@@ -4624,7 +4622,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 143.51 0)
+			(at 247.65 141.478 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4772,25 +4770,25 @@
 		(fields_autoplaced yes)
 		(uuid "7875ddc0-d40e-45d1-abaf-72b2b88edd9d")
 		(property "Reference" "R38"
-			(at 281.94 198.1201 0)
+			(at 287.02 195.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "2k2"
-			(at 281.94 195.5801 0)
+		(property "Value" "10k"
+			(at 287.02 198.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -5163,7 +5161,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8688f704-1175-4ffc-a8db-6149af441282")
 		(property "Reference" "D3"
 			(at 86.36 199.7074 90)
@@ -5176,8 +5173,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 86.36 202.2474 90)
+		(property "Value" "BLUE"
+			(at 70.612 195.072 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5209,7 +5206,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode blue"
 			(at 82.55 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -5537,7 +5534,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch push  smd"
 			(at 151.13 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5662,7 +5659,7 @@
 				)
 			)
 		)
-		(property "Value" "up"
+		(property "Value" "Switch_push"
 			(at 259.08 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5694,7 +5691,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch push  smd"
 			(at 259.08 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6058,7 +6055,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 153.67 241.3 0)
+			(at 137.16 239.268 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6155,7 +6152,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 184.15 241.3 0)
+			(at 179.832 231.648 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6252,7 +6249,7 @@
 				)
 			)
 		)
-		(property "Value" "down"
+		(property "Value" "Switch_Push"
 			(at 259.08 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6284,7 +6281,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch push  smd"
 			(at 259.08 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6408,7 +6405,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 168.91 241.3 0)
+			(at 162.052 233.934 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7093,7 +7090,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch push  smd"
 			(at 201.93 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7131,25 +7128,25 @@
 		(fields_autoplaced yes)
 		(uuid "f765fcb7-1d14-408b-a615-9632cdcbf758")
 		(property "Reference" "R40"
-			(at 304.8 195.5801 0)
+			(at 309.88 193.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "2k2"
-			(at 304.8 193.0401 0)
+		(property "Value" "10K"
+			(at 309.88 195.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"

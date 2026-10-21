@@ -2310,7 +2310,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nf"
+		(property "Value" "1uf"
 			(at 184.15 92.7099 0)
 			(hide yes)
 			(show_name no)

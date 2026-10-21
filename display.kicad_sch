@@ -2132,9 +2132,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "2c387042-7276-464c-afd6-582ae3699d49")
 		(property "Reference" "J5"
@@ -2270,8 +2270,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 195.58 101.6 0)
+		(property "Description" "Display LCD ST7789 240x240 pixels"
+			(at 208.534 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2403,7 +2403,7 @@
 		(fields_autoplaced yes)
 		(uuid "459fb0db-1e19-47ac-bbfb-c4fb534a6048")
 		(property "Reference" "C33"
-			(at 181.61 135.89 0)
+			(at 181.61 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2413,8 +2413,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nf"
-			(at 181.61 138.43 0)
+		(property "Value" "1uf"
+			(at 181.61 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3312,7 +3312,7 @@
 				)
 			)
 		)
-		(property "Description" "SSD1306 OLED module, 0.91 inch, 128x32, I2C"
+		(property "Description" "SSD1306 OLED module, 0.91 inch, 128x64, I2C"
 			(at 85.09 112.014 0)
 			(hide yes)
 			(show_name no)

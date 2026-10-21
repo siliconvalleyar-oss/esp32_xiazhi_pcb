@@ -2980,7 +2980,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ferrite"
+		(property "Value" "100mH"
 			(at 181.61 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4944,7 +4944,7 @@
 				)
 			)
 		)
-		(property "Value" "ferrite"
+		(property "Value" "100mH"
 			(at 213.36 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4976,7 +4976,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "Inductor 100mH"
 			(at 213.36 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5103,7 +5103,7 @@
 				)
 			)
 		)
-		(property "Value" "ferrite"
+		(property "Value" "100mH"
 			(at 227.33 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5135,7 +5135,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "Inductor 100mH"
 			(at 227.33 110.49 0)
 			(hide yes)
 			(show_name no)
