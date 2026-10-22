@@ -5915,7 +5915,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C28233"
 			(at 66.04 254 0)
 			(hide yes)
 			(show_name no)
@@ -7898,7 +7898,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uf"
+		(property "Value" "4.7uf"
 			(at 269.494 156.464 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7941,7 +7941,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C28323  "
+		(property "LCSC" "C1779"
 			(at 266.7 163.83 90)
 			(hide yes)
 			(show_name no)
@@ -8302,7 +8302,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C28233"
 			(at 335.28 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -8470,7 +8470,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C28233"
 			(at 351.79 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8518,8 +8518,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RX"
-			(at 240.03 227.3935 90)
+		(property "Value" "RX white / Yellow"
+			(at 248.666 227.584 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8552,7 +8552,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode Blue"
-			(at 244.856 227.33 0)
+			(at 236.22 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8728,7 +8728,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C28233"
 			(at 335.28 185.42 90)
 			(hide yes)
 			(show_name no)
@@ -9133,7 +9133,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C28233"
 			(at 78.74 254 0)
 			(hide yes)
 			(show_name no)
@@ -9224,7 +9224,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C28233"
 			(at 245.11 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -9425,7 +9425,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "0"
 			(at 249.428 94.234 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9558,7 +9558,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C28233"
 			(at 105.41 254 0)
 			(hide yes)
 			(show_name no)
@@ -9606,7 +9606,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RX"
+		(property "Value" "RX led Green"
 			(at 274.32 170.1165 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10279,7 +10279,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "0"
 			(at 249.428 88.392 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10458,7 +10458,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nf"
+		(property "Value" "4.7uf"
 			(at 385.318 39.878 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10501,7 +10501,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C1779"
 			(at 378.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -10924,7 +10924,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C28233"
 			(at 92.71 254 0)
 			(hide yes)
 			(show_name no)
@@ -11110,7 +11110,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C28323  "
+		(property "LCSC" "C1779"
 			(at 250.19 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -12108,8 +12108,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RX"
-			(at 232.41 227.3935 90)
+		(property "Value" "RX led Green"
+			(at 213.868 228.346 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

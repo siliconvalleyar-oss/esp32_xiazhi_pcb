@@ -2096,7 +2096,7 @@
 		(at 160.02 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "22ab8fb7-6883-487a-b743-09c181f75903")
+		(uuid "260d3a3e-67cb-4846-856f-b7b4a681f4fc")
 	)
 	(junction
 		(at 180.34 78.74)
@@ -2538,7 +2538,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 82.55) (xy 160.02 82.55)
+			(xy 144.78 82.55) (xy 160.02 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2588,16 +2588,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 86.36) (xy 144.78 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d76202d-3844-4463-8405-bafd5505f89e")
-	)
-	(wire
-		(pts
 			(xy 189.23 88.9) (xy 189.23 86.36)
 		)
 		(stroke
@@ -2618,7 +2608,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 82.55) (xy 146.05 86.36)
+			(xy 144.78 82.55) (xy 144.78 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3132,7 +3122,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
 			(at 180.34 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3165,7 +3155,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1015"
+		(property "LCSC" "C1882517"
 			(at 180.34 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4005,7 +3995,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22p"
+		(property "Value" "220p"
 			(at 236.22 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4048,7 +4038,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1804"
+		(property "LCSC" "C107145"
 			(at 232.41 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4374,7 +4364,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C28233"
 			(at 173.99 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5144,7 +5134,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C107145 "
+		(property "LCSC" "C107145"
 			(at 218.44 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5203,7 +5193,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 185.42 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5273,7 +5263,7 @@
 				)
 			)
 		)
-		(property "Value" "100mH"
+		(property "Value" "100uH"
 			(at 213.36 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5316,7 +5306,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1015"
+		(property "LCSC" "C845118"
 			(at 213.36 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -5443,7 +5433,7 @@
 				)
 			)
 		)
-		(property "Value" "100mH"
+		(property "Value" "100uH"
 			(at 227.33 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5486,7 +5476,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1015"
+		(property "LCSC" "C845118"
 			(at 227.33 110.49 90)
 			(hide yes)
 			(show_name no)

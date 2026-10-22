@@ -3000,7 +3000,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4190"
+		(property "LCSC" "C17520"
 			(at 92.71 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -3092,7 +3092,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4190"
+		(property "LCSC" "C17520"
 			(at 243.84 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -3537,7 +3537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC9xxG"
+		(property "Footprint" "kiC:SW_Push_1P1T_NO_6x6mm_H9.5mm"
 			(at 151.13 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -3569,7 +3569,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2837531"
+		(property "LCSC" "C83916"
 			(at 151.13 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -3694,7 +3694,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "red"
 			(at 96.52 189.992 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3996,7 +3996,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4190"
+		(property "LCSC" "C17520"
 			(at 176.53 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4132,7 +4132,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC9xxG"
+		(property "Footprint" "kiC:SW_Push_1P1T_NO_6x6mm_H9.5mm"
 			(at 201.93 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -4164,7 +4164,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2837531"
+		(property "LCSC" "C83916"
 			(at 201.93 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -4431,7 +4431,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C28233"
 			(at 186.69 127 0)
 			(hide yes)
 			(show_name no)
@@ -4533,7 +4533,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C28233"
 			(at 245.11 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -4626,7 +4626,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C28233"
 			(at 234.95 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4823,7 +4823,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C28233"
 			(at 137.16 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -4914,7 +4914,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4190"
+		(property "LCSC" "C17520"
 			(at 187.96 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -5159,7 +5159,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C28233"
 			(at 243.84 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5498,7 +5498,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4190"
+		(property "LCSC" "C17520"
 			(at 125.73 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5848,7 +5848,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4190"
+		(property "LCSC" "C17520"
 			(at 138.43 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5984,7 +5984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC9xxG"
+		(property "Footprint" "kiC:SW_Push_1P1T_NO_6x6mm_H9.5mm"
 			(at 151.13 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -6016,7 +6016,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2837531"
+		(property "LCSC" "C83916"
 			(at 151.13 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -6152,7 +6152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC9xxG"
+		(property "Footprint" "kiC:SW_Push_1P1T_NO_6x6mm_H9.5mm"
 			(at 259.08 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6184,7 +6184,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2837531"
+		(property "LCSC" "C83916"
 			(at 259.08 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6354,7 +6354,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4190"
+		(property "LCSC" "C17520"
 			(at 234.95 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -6446,7 +6446,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4190"
+		(property "LCSC" "C17520"
 			(at 82.55 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -6797,7 +6797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC9xxG"
+		(property "Footprint" "kiC:SW_Push_1P1T_NO_6x6mm_H9.5mm"
 			(at 259.08 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6829,7 +6829,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2837531"
+		(property "LCSC" "C83916"
 			(at 259.08 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -7263,7 +7263,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C28233"
 			(at 139.7 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -7355,7 +7355,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4190"
+		(property "LCSC" "C17520"
 			(at 105.41 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -7525,7 +7525,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C28233"
 			(at 177.8 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7661,7 +7661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC9xxG"
+		(property "Footprint" "kiC:SW_Push_1P1T_NO_6x6mm_H9.5mm"
 			(at 201.93 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7693,7 +7693,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2837531"
+		(property "LCSC" "C83916"
 			(at 201.93 135.89 0)
 			(hide yes)
 			(show_name no)

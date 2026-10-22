@@ -4291,7 +4291,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C28233"
 			(at 44.45 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4384,7 +4384,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C28233"
 			(at 71.12 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5059,7 +5059,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C28233"
 			(at 124.46 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -5385,7 +5385,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C28233"
 			(at 209.55 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -5748,7 +5748,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "white/yellow"
 			(at 201.93 113.3474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6468,7 +6468,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C28233"
 			(at 85.09 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6559,7 +6559,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4190"
+		(property "LCSC" "C17520"
 			(at 198.12 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6652,7 +6652,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C28233"
 			(at 99.06 66.04 0)
 			(hide yes)
 			(show_name no)
