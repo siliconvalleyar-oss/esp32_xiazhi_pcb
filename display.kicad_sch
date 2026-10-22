@@ -2111,6 +2111,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 163.83 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6cb514c7-cfeb-4220-912e-acdd272d0025")
 		)
@@ -2190,6 +2201,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C9900045120"
+			(at 149.86 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "e14edca1-0f0b-4762-aaed-32b9b405acd9")
 		)
@@ -2223,9 +2245,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "2d6b498b-579d-4af2-b79c-92f25ea0f8eb")
 		(property "Reference" "J9"
@@ -2272,6 +2294,17 @@
 		)
 		(property "Description" "Display LCD ST7789 240x240 pixels"
 			(at 208.534 112.776 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C9900247203"
+			(at 195.58 101.6 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2456,6 +2489,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C28323  "
+			(at 177.8 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cd0d33e0-247c-419e-8450-51d409c9807d")
 		)
@@ -2529,6 +2573,17 @@
 		)
 		(property "Description" ""
 			(at 110.49 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4190"
+			(at 110.49 130.81 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2688,6 +2743,17 @@
 		)
 		(property "Description" ""
 			(at 96.52 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4190"
+			(at 96.52 120.65 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3262,9 +3328,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f576c7be-132a-435d-8579-50b4974e2626")

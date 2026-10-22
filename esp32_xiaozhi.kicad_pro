@@ -198,6 +198,7 @@
         0.2,
         0.3,
         0.382,
+        0.4,
         0.508,
         0.762,
         1.0,
@@ -859,14 +860,206 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLC Part",
+          "name": "JLC Part",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "capacity",
+          "name": "capacity",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "manufacturer_pn",
+          "name": "manufacturer_pn",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "operating_temp_max",
+          "name": "operating_temp_max",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "operating_temp_min",
+          "name": "operating_temp_min",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "packaging",
+          "name": "packaging",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "packaging_qty",
+          "name": "packaging_qty",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "part_uid",
+          "name": "part_uid",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "size",
+          "name": "size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "voltage",
+          "name": "voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "z_height_max",
+          "name": "z_height_max",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "z_height_nom",
+          "name": "z_height_nom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "LCSC"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -909,7 +1102,7 @@
         "uuid": "cae338e8-f342-43cb-b99a-a0486629133c"
       }
     ],
-    "used_designators": "C52,R69,#PWR150,#PWR153-154",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
