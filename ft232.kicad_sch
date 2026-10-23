@@ -10971,7 +10971,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND24_Small_6MHZ"
+		(property "Value" "Crystal_GND24_Small_12MHZ"
 			(at 334.01 211.328 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11912,7 +11912,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C49018905"
+		(property "LCSC" "C8690"
 			(at 181.61 107.95 0)
 			(hide yes)
 			(show_name no)
