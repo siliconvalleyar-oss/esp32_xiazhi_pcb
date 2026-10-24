@@ -4850,6 +4850,12 @@
 		(uuid "705f8c50-bc5a-41af-8646-ad44dcf69a81")
 	)
 	(junction
+		(at 49.53 256.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83f778df-f415-4237-bd92-77f189d0db41")
+	)
+	(junction
 		(at 254 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4938,6 +4944,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f174257b-0743-47d0-bb88-1237d5e6c4de")
+	)
+	(junction
+		(at 36.83 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3808c7a-eb13-4a2e-b591-8fd168ad0b5c")
 	)
 	(junction
 		(at 241.3 175.26)
@@ -5109,6 +5121,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 248.92) (xy 49.53 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "150a0029-3bd9-49de-9636-062fba9ccf34")
+	)
+	(wire
+		(pts
 			(xy 152.4 222.25) (xy 152.4 220.98)
 		)
 		(stroke
@@ -5156,6 +5178,16 @@
 			(type default)
 		)
 		(uuid "20e16226-48bd-4ee9-954b-7744be031cca")
+	)
+	(wire
+		(pts
+			(xy 36.83 242.57) (xy 36.83 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2255e64d-c05a-4c48-9dfc-90c4f122b0fc")
 	)
 	(wire
 		(pts
@@ -5466,6 +5498,16 @@
 			(type default)
 		)
 		(uuid "474a59bf-8fa7-4464-923f-3a2c8f0014f7")
+	)
+	(wire
+		(pts
+			(xy 45.72 261.62) (xy 49.53 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48909ec0-8b94-4b9d-9119-d125a233389b")
 	)
 	(wire
 		(pts
@@ -6249,6 +6291,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 261.62) (xy 49.53 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2ea2f86-cff6-4f2b-9781-cea127c6eb8e")
+	)
+	(wire
+		(pts
 			(xy 252.73 35.56) (xy 264.16 35.56)
 		)
 		(stroke
@@ -6466,6 +6518,16 @@
 			(type default)
 		)
 		(uuid "d45ce39a-065f-4009-a35f-b6487f0cd410")
+	)
+	(wire
+		(pts
+			(xy 36.83 256.54) (xy 49.53 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5871e13-698d-4c8c-9ba2-c75cbe1dc3ae")
 	)
 	(wire
 		(pts
@@ -9241,6 +9303,97 @@
 			(project "esp32_xiaozhi"
 				(path "/cae338e8-f342-43cb-b99a-a0486629133c/62520ce4-d21b-4842-a32d-5b11b343b2aa"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 49.53 252.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24d18195-ddeb-44cc-8295-35ec20ce85cc")
+		(property "Reference" "C69"
+			(at 53.34 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf"
+			(at 53.34 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 50.4952 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 252.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C28233"
+			(at 49.53 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "278d8eac-2620-46c6-8742-ed92c720a269")
+		)
+		(pin "2"
+			(uuid "ebea7a48-7156-4f90-91f1-4859f54cc09c")
+		)
+		(instances
+			(project "esp32_xiaozhi"
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c/62520ce4-d21b-4842-a32d-5b11b343b2aa"
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -14104,6 +14257,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3VA")
+		(at 36.83 242.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bca54a92-47b3-4515-8538-9aa7bf692bd2")
+		(property "Reference" "#PWR017"
+			(at 36.83 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 36.83 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 242.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2117294d-a23d-44ca-9d0e-258af89fcceb")
+		)
+		(instances
+			(project "esp32_xiaozhi"
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c/62520ce4-d21b-4842-a32d-5b11b343b2aa"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 186.69 165.1 270)
 		(unit 1)
@@ -15730,6 +15960,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 36.83 252.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e7052444-e0a6-46d1-8714-6d0917304ade")
+		(property "Reference" "C68"
+			(at 40.64 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf"
+			(at 40.64 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 37.7952 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 252.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C28233"
+			(at 36.83 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c7e41d0-1732-4f59-98a3-2da43465bd11")
+		)
+		(pin "2"
+			(uuid "3d62ecb6-d6ef-456f-a36a-e1a3e076df70")
+		)
+		(instances
+			(project "esp32_xiaozhi"
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c/62520ce4-d21b-4842-a32d-5b11b343b2aa"
+					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal")
 		(at 204.47 193.04 0)
 		(unit 1)
@@ -15803,6 +16124,84 @@
 			(project "esp32_xiaozhi"
 				(path "/cae338e8-f342-43cb-b99a-a0486629133c/62520ce4-d21b-4842-a32d-5b11b343b2aa"
 					(reference "Y4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 45.72 261.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb4ac811-cfdc-4f02-9c77-3f38863d5c3c")
+		(property "Reference" "#PWR0165"
+			(at 45.72 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 262.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 261.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1cc66c6b-f6af-46d3-b4d8-aca39e1e635c")
+		)
+		(instances
+			(project "esp32_xiaozhi"
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c/62520ce4-d21b-4842-a32d-5b11b343b2aa"
+					(reference "#PWR0165")
 					(unit 1)
 				)
 			)

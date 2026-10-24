@@ -3868,6 +3868,16 @@
 		)
 		(uuid "15201562-578c-4e99-b60f-7b966fee7f83")
 	)
+	(label "_SCL"
+		(at 59.69 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b5b3057-825b-4670-9f55-375d17211f0d")
+	)
 	(label "+VCC_5"
 		(at 40.64 43.18 0)
 		(effects
@@ -3887,6 +3897,16 @@
 			(justify left bottom)
 		)
 		(uuid "3a74465b-25f4-4734-a02e-3559c21d6bcd")
+	)
+	(label "_RST"
+		(at 59.69 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b4f68e2-9910-4d14-845d-cff343337bb1")
 	)
 	(label "SCL"
 		(at 35.56 121.92 180)
@@ -3918,6 +3938,16 @@
 		)
 		(uuid "7a71c860-29ea-47c5-90e1-7bd69b2770db")
 	)
+	(label "_CS"
+		(at 62.23 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86e0e551-af18-424f-8116-4d2df1acfbb4")
+	)
 	(label "+VCC_3.3"
 		(at 205.74 30.48 0)
 		(effects
@@ -3938,6 +3968,16 @@
 		)
 		(uuid "ab5e32fa-3813-42d9-b1de-08ed72dea06e")
 	)
+	(label "_SDA"
+		(at 59.69 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea14a41f-e497-421f-8088-c365dcf27cb8")
+	)
 	(label "+VCC_5"
 		(at 160.02 25.4 0)
 		(effects
@@ -3957,6 +3997,16 @@
 			(justify right bottom)
 		)
 		(uuid "f37cd005-998b-45d4-8ae3-421ef833dda5")
+	)
+	(label "_RS"
+		(at 87.63 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f61bd3a1-ea4d-414e-a779-f123ec55b2a5")
 	)
 	(label "SCL"
 		(at 125.73 157.48 180)
@@ -7543,6 +7593,52 @@
 				(path "/cae338e8-f342-43cb-b99a-a0486629133c/c0550844-e74d-4e5d-964f-3b0622860ba1"
 					(reference "U6")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.035 71.755)
+		(size 62.865 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0d1fa2b3-bd61-40de-8c5c-b66cc9dacf9c")
+		(property "Sheetname" "epaper"
+			(at 153.035 71.0434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "epaper.kicad_sch"
+			(at 153.035 120.5996 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32_xiaozhi"
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c/c0550844-e74d-4e5d-964f-3b0622860ba1"
+					(page "10")
 				)
 			)
 		)

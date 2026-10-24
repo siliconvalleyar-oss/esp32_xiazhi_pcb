@@ -1854,6 +1854,52 @@
 		)
 	)
 	(sheet
+		(at 326.136 44.958)
+		(size 62.738 59.436)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "44125201-f7c1-4954-b625-326943d020f9")
+		(property "Sheetname" "logic"
+			(at 326.136 44.2464 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "logic_dip28.kicad_sch"
+			(at 326.136 104.9786 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32_xiaozhi"
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 281.94 116.84)
 		(size 38.1 33.02)
 		(exclude_from_sim no)

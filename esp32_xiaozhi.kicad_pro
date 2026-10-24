@@ -923,12 +923,6 @@
         },
         {
           "group_by": false,
-          "label": "Package",
-          "name": "Package",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Price",
           "name": "Price",
           "show": false
@@ -1058,6 +1052,36 @@
           "label": "MPN",
           "name": "MPN",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER",
+          "name": "SUPPLIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OC_FARNELL",
+          "name": "OC_FARNELL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OC_NEWARK",
+          "name": "OC_NEWARK",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1108,7 +1132,7 @@
         "uuid": "cae338e8-f342-43cb-b99a-a0486629133c"
       }
     ],
-    "used_designators": "J18,#FLG3,C65-67,Y4,#PWR17,#PWR19,#PWR21,#PWR23,#PWR32,#PWR42,#PWR108,#PWR140,#PWR160-162,#PWR164,R50-52,R54-57,R71-73,U8,U15",
+    "used_designators": "#FLG10-11,R83-84,Q8,#PWR209-210",
     "variants": []
   },
   "sheets": [
@@ -1147,6 +1171,14 @@
     [
       "48c69a19-5dbf-4d8f-8d4c-5f90e1f766ed",
       "micro_sd"
+    ],
+    [
+      "0d1fa2b3-bd61-40de-8c5c-b66cc9dacf9c",
+      "epaper"
+    ],
+    [
+      "44125201-f7c1-4954-b625-326943d020f9",
+      "logic"
     ],
     [
       "2567bb9e-06b8-4d2c-80a7-ee2453b67a65",
