@@ -1,5 +1,7 @@
 # KiCad files
 *.kicad_sch.lck
+*.kicad_pcb.lck
+*.kicad_pro.lck
 *.kicad_prl
 *.kicad_pcb-bak
 *.kicad_sch-bak
@@ -14,3 +16,8 @@ esp32_xiaozhi-backups/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+tmp/
+BOM/
+
+esp32_xiaozhi-backups/
