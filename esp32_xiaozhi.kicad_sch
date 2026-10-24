@@ -2023,7 +2023,7 @@
 				(justify left top)
 			)
 		)
-		(pin "FT_CTS" input
+		(pin "FT_CTS" output
 			(at 97.79 215.9 0)
 			(uuid "7f144dc8-fea6-4224-89fb-f805f1d1a0a6")
 			(effects
@@ -2033,7 +2033,7 @@
 				(justify right)
 			)
 		)
-		(pin "FT_DTR" input
+		(pin "FT_DTR" output
 			(at 97.79 218.44 0)
 			(uuid "53eca304-9d6c-4bdf-bfc4-c1314bf81304")
 			(effects
@@ -2063,7 +2063,7 @@
 				(justify right)
 			)
 		)
-		(pin "FT_TX" input
+		(pin "FT_TX" output
 			(at 97.79 223.52 0)
 			(uuid "66ea1fdf-1259-4363-b836-159e8338b79d")
 			(effects
