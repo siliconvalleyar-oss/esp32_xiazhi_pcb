@@ -5908,18 +5908,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "TO-236-3 ON"
-			(at 182.88 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Price" "None"
 			(at 182.88 100.33 0)
 			(hide yes)
@@ -7027,18 +7015,6 @@
 			)
 		)
 		(property "MF" "ON Semiconductor"
-			(at 158.75 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "TO-236-3 ON"
 			(at 158.75 106.68 0)
 			(hide yes)
 			(show_name no)

@@ -8168,18 +8168,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "None"
-			(at 339.09 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Price" "None"
 			(at 339.09 119.38 0)
 			(hide yes)
@@ -9462,18 +9450,6 @@
 			)
 		)
 		(property "MF" "ON Semiconductor"
-			(at 190.5 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "TO-236-3 ON"
 			(at 190.5 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -12215,18 +12191,6 @@
 			)
 		)
 		(property "MF" "ON Semiconductor"
-			(at 166.37 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "TO-236-3 ON"
 			(at 166.37 196.85 0)
 			(hide yes)
 			(show_name no)

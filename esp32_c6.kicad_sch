@@ -9087,18 +9087,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "None"
-			(at 322.58 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Price" "None"
 			(at 322.58 130.81 0)
 			(hide yes)
@@ -10249,18 +10237,6 @@
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.25mm"
 			(at 206.248 135.636 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "SMD-28 Espressif Systems"
-			(at 168.91 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
