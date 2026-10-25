@@ -3893,7 +3893,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0adaed81-f7f5-42b3-b8fd-312d3f6f1dd4")
@@ -4848,7 +4848,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 153.924 121.158 0)
+			(at 153.924 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5575,7 +5575,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88882a7f-77a3-4668-aa43-9f4515dff1e0")
@@ -5658,7 +5658,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "93266dd2-c0d9-4162-8d84-0399152f4119")
 		(property "Reference" "J23"
@@ -6237,7 +6237,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "c08c6253-54b3-4b6d-8510-7b4e879c02d3")
 		(property "Reference" "JP5"

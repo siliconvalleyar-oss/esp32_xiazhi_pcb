@@ -3111,7 +3111,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100mH"
+		(property "Value" "10uH  @ 305mΩ"
 			(at 181.61 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3122,7 +3122,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metri"
 			(at 180.34 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3144,7 +3144,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "1.4A 1.6A 10uH 305mΩ ±20% 1210 Inductors"
 			(at 180.34 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3807,7 +3807,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "35ffff8d-437d-4c07-af27-dbbb3a20ba5d")
 		(property "Reference" "JP9"
@@ -4072,7 +4072,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "58e7d3c5-9235-45a2-975a-9b2ac1d86c75")
 		(property "Reference" "JP7"
@@ -4889,7 +4889,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a83313f9-6052-42aa-945a-478df7c3be12")
@@ -5168,7 +5168,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "bc440ec5-625e-4503-a4fb-3a3c5fcac94a")
 		(property "Reference" "JP8"
@@ -5263,7 +5263,7 @@
 				)
 			)
 		)
-		(property "Value" "100uH"
+		(property "Value" "100mΩ 2A 600Ω@100MHz"
 			(at 213.36 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5295,7 +5295,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor 100mH"
+		(property "Description" "100mΩ 2A 600Ω@100MHz"
 			(at 213.36 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5433,7 +5433,7 @@
 				)
 			)
 		)
-		(property "Value" "100uH"
+		(property "Value" "100mΩ 2A 600Ω@100MHz"
 			(at 227.33 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5465,7 +5465,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor 100mH"
+		(property "Description" "-55℃~+125℃ 1 100mΩ 2A 600Ω@100MHz ±25% 0805 Ferrite Beads ROHS"
 			(at 227.33 110.49 0)
 			(hide yes)
 			(show_name no)

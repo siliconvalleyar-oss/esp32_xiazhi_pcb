@@ -3150,7 +3150,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "54987853-c1b2-4c86-a666-0d14402de3e2")
 		(property "Reference" "JP2"
@@ -3558,7 +3558,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "7d0cf577-5de0-4b8a-b311-59d3cbc93859")
 		(property "Reference" "JP4"
@@ -4317,7 +4317,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ferrite"
+		(property "Value" "60 Ω @ 100 MHz)"
 			(at 179.07 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4350,7 +4350,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "60 Ω @ 100 MHz)"
 			(at 177.8 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4472,7 +4472,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "cec96e97-6e20-47f7-a3e9-48604e3503e5")
 		(property "Reference" "JP3"

@@ -7667,7 +7667,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "2323e043-96c2-4059-a9f5-f2986df17cfb")
 		(property "Reference" "C79"
@@ -8444,7 +8444,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "2fd3047f-fd69-4bd3-af36-6fc8926e9674")
 		(property "Reference" "C70"
@@ -9232,7 +9232,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "5442ae56-e10c-4bf7-bbef-8fc4342b442a")
 		(property "Reference" "C80"
@@ -10800,7 +10800,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "b586621f-baf5-41eb-8307-3492b8a85752")
 		(property "Reference" "C78"
@@ -11110,7 +11110,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "d5a054c9-e343-4a39-9ed7-ada97241cb00")
 		(property "Reference" "R77"
