@@ -3111,7 +3111,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uH  @ 305mΩ"
+		(property "Value" "TFM322512ALVA100MTAA"
 			(at 181.61 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)

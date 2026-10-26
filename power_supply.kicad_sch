@@ -1313,7 +1313,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C110255"
 			(at 123.19 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -1577,7 +1577,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C110255"
 			(at 137.16 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -1670,7 +1670,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C110255"
 			(at 166.37 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -1720,7 +1720,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nf"
+		(property "Value" "1206B104K101NT"
 			(at 154.94 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1763,7 +1763,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C110255"
 			(at 151.13 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -1856,7 +1856,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C110255"
 			(at 102.87 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2524,7 +2524,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C110255"
 			(at 88.9 90.17 0)
 			(hide yes)
 			(show_name no)

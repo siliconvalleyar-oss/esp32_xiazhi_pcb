@@ -10825,7 +10825,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "407209f4-5625-4118-8889-192e4bebd8d3")
 		(property "Reference" "J21"

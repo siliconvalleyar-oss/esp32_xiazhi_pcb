@@ -5399,6 +5399,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C5329582"
+			(at 101.6 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "a3c12248-50dc-4110-9356-666441e21a23")
 		)
