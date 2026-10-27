@@ -10838,7 +10838,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_B_Mini"
+		(property "Value" "U-M-M5SS-W-2"
 			(at 55.88 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -14429,7 +14429,7 @@
 				)
 			)
 		)
-		(property "Value" "LM1117DT-3.3"
+		(property "Value" "LM1117MDT-3.3/TR"
 			(at 270.51 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14471,7 +14471,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C969102"
+		(property "LCSC" "C498159"
 			(at 270.51 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -15322,7 +15322,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "d4e33b3e-83c8-4015-ab50-d9cb85b1b21d")
 		(property "Reference" "JP21"
@@ -15336,7 +15336,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "jp_xt"
+		(property "Value" "NL"
 			(at 52.324 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)

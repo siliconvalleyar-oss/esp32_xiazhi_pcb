@@ -542,7 +542,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "JLCImport"
+    ]
   },
   "meta": {
     "filename": "esp32_xiaozhi.kicad_pro",
@@ -1084,7 +1086,7 @@
           "show": false
         }
       ],
-      "filter_string": "J21",
+      "filter_string": "u3",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -1132,7 +1134,7 @@
         "uuid": "cae338e8-f342-43cb-b99a-a0486629133c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "DS1-2,SW7,SW9-10,SW12,KEY1-2,C87-88",
     "variants": []
   },
   "sheets": [

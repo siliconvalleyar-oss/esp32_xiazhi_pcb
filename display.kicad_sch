@@ -5344,7 +5344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCImport:OLED-SMD_HS20HS072RX"
+		(property "Footprint" "Libraries:OLED-SMD_HS20HS072RX"
 			(at 101.6 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6585,7 +6585,7 @@
 				)
 			)
 		)
-		(property "Value" "LM1117DT-3.3"
+		(property "Value" "LM1117MDT-3.3/TR"
 			(at 176.53 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6627,7 +6627,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C969102"
+		(property "LCSC" "C498159"
 			(at 176.53 30.48 0)
 			(hide yes)
 			(show_name no)

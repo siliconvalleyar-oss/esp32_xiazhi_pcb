@@ -1362,7 +1362,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uf"
+		(property "Value" "RVT2A100M0607"
 			(at 217.17 118.4909 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2292,7 +2292,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uf"
+		(property "Value" "RVT2A100M0607"
 			(at 201.93 122.3009 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -3999,7 +3999,7 @@
 				)
 			)
 		)
-		(property "Value" "Micro_SD_Card"
+		(property "Value" "TF-001B"
 			(at 164.465 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4009,7 +4009,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:3M_2908-05WB-MG"
+		(property "Footprint" "JLCImport:TF-001B"
 			(at 193.04 76.2 0)
 			(hide yes)
 			(show_name no)

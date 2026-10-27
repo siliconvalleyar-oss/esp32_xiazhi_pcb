@@ -1957,12 +1957,6 @@
 		(uuid "2fb110c5-fce8-4c5a-93d3-d34493803c94")
 	)
 	(junction
-		(at 273.05 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3229febf-fb5b-42cc-ab50-26e844fb1abe")
-	)
-	(junction
 		(at 297.18 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1985,12 +1979,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73d9f568-0c3c-47de-b3b2-c628e48d9855")
-	)
-	(junction
-		(at 234.95 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75e2a749-abcc-468f-8e13-cc48716136f1")
 	)
 	(junction
 		(at 125.73 105.41)
@@ -2029,10 +2017,22 @@
 		(uuid "d060af2e-bc23-4693-a6ee-b896affecd58")
 	)
 	(junction
+		(at 273.05 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8adabe0-2186-429e-a838-50b31c171b77")
+	)
+	(junction
 		(at 139.7 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e426cf1d-b098-425f-a852-5af8dd8dcba2")
+	)
+	(junction
+		(at 234.95 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fde3c551-96f0-438b-b430-a28d3dff90fa")
 	)
 	(no_connect
 		(at 186.69 247.65)
@@ -2760,6 +2760,26 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 168.91) (xy 234.95 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e872a694-9568-431d-a301-c0e0974dc838")
+	)
+	(wire
+		(pts
+			(xy 234.95 158.75) (xy 234.95 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc66aee-3fee-4f57-8509-8ccc14540598")
+	)
+	(wire
+		(pts
 			(xy 125.73 105.41) (xy 125.73 116.84)
 		)
 		(stroke
@@ -2790,7 +2810,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 154.94) (xy 273.05 143.51)
+			(xy 273.05 170.18) (xy 273.05 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3557,7 +3577,7 @@
 				)
 			)
 		)
-		(property "Value" "down"
+		(property "Value" "K2-1102SP-A4SC-04"
 			(at 151.13 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3567,7 +3587,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiC:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
 			(at 151.13 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -3627,7 +3647,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 151.13 0)
+		(at 234.95 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3638,7 +3658,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b320a2e-8e35-4d64-8c02-1b4eb15abb71")
 		(property "Reference" "#PWR0116"
-			(at 234.95 157.48 0)
+			(at 234.95 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3649,7 +3669,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 156.21 0)
+			(at 234.95 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3659,7 +3679,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 151.13 0)
+			(at 234.95 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3670,7 +3690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 151.13 0)
+			(at 234.95 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3681,7 +3701,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 234.95 151.13 0)
+			(at 234.95 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4152,7 +4172,7 @@
 				)
 			)
 		)
-		(property "Value" "left"
+		(property "Value" "K2-1102SP-A4SC-04"
 			(at 201.93 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4162,7 +4182,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiC:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
 			(at 201.93 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -4592,7 +4612,7 @@
 	(symbol
 		(lib_name "C_1")
 		(lib_id "Device:C")
-		(at 234.95 147.32 0)
+		(at 234.95 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4603,7 +4623,7 @@
 		(fields_autoplaced yes)
 		(uuid "5858f236-7228-4be6-ac84-fa56b332d1bf")
 		(property "Reference" "C43"
-			(at 238.76 146.05 0)
+			(at 238.76 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4614,7 +4634,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 238.76 148.59 0)
+			(at 238.76 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4625,7 +4645,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 235.9152 151.13 0)
+			(at 235.9152 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4636,7 +4656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 147.32 0)
+			(at 234.95 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4647,7 +4667,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 234.95 147.32 0)
+			(at 234.95 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4657,7 +4677,7 @@
 			)
 		)
 		(property "LCSC" "C28233"
-			(at 234.95 147.32 0)
+			(at 234.95 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6004,7 +6024,7 @@
 				)
 			)
 		)
-		(property "Value" "up"
+		(property "Value" "K2-1102SP-A4SC-04"
 			(at 151.13 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6014,7 +6034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiC:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
 			(at 151.13 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -6172,7 +6192,7 @@
 				)
 			)
 		)
-		(property "Value" "Switch_push"
+		(property "Value" "K2-1102SP-A4SC-04"
 			(at 259.08 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6182,7 +6202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiC:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
 			(at 259.08 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6214,7 +6234,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C83916"
+		(property "LCSC" " C83916"
 			(at 259.08 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6504,7 +6524,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 273.05 154.94 0)
+		(at 273.05 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6515,7 +6535,7 @@
 		(fields_autoplaced yes)
 		(uuid "b70dc0dc-32de-4721-abf9-56b8807fa73c")
 		(property "Reference" "#PWR060"
-			(at 273.05 161.29 0)
+			(at 273.05 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6526,7 +6546,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 273.05 160.02 0)
+			(at 273.05 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6536,7 +6556,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 154.94 0)
+			(at 273.05 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6547,7 +6567,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 154.94 0)
+			(at 273.05 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6558,7 +6578,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 154.94 0)
+			(at 273.05 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6600,8 +6620,8 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 135.89 243.078 0)
+		(property "Value" "XL-5050RGBC-2812B"
+			(at 131.572 257.556 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6611,8 +6631,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 148.59 255.27 0)
-			(hide yes)
+			(at 111.252 269.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6644,7 +6663,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2761795"
+		(property "LCSC Part #" "C2843785"
 			(at 147.32 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -6708,7 +6727,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "XL-5050RGBC-2812B"
 			(at 179.832 231.648 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6752,7 +6771,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2761795"
+		(property "LCSC Part #" "C2843785"
 			(at 179.07 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -6817,7 +6836,7 @@
 				)
 			)
 		)
-		(property "Value" "Switch_Push"
+		(property "Value" "K2-1102SP-A4SC-04"
 			(at 259.08 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6827,7 +6846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiC:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
 			(at 259.08 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6859,7 +6878,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C83916"
+		(property "LCSC" " C83916"
 			(at 259.08 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6983,7 +7002,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "XL-5050RGBC-2812B"
 			(at 162.052 233.934 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7027,7 +7046,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2761795"
+		(property "LCSC Part #" "C2843785"
 			(at 163.83 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -7681,7 +7700,7 @@
 				)
 			)
 		)
-		(property "Value" "rigth"
+		(property "Value" "K2-1102SP-A4SC-04"
 			(at 201.93 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7691,7 +7710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiC:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
 			(at 201.93 135.89 0)
 			(hide yes)
 			(show_name no)
